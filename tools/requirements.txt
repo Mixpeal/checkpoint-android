@@ -1,0 +1,11 @@
+# For tools/build_model.py, tools/probe.py and training/.
+# sentence-transformers is the reference encoder the heads are fitted on, and the one
+# build_model.py checks the assembled graph against.
+onnx
+onnxruntime
+onnxruntime-extensions
+transformers
+sentence-transformers
+scikit-learn
+scipy
+numpy

@@ -1,0 +1,12 @@
+{
+  "version": "e5-small-tokenized-1",
+  "_note": "baseUrl must point at a host serving the files below. Until it does, copy the model into the app's external files directory and it will be adopted after the same hash check. Build the file with tools/build_model.py.",
+  "baseUrl": "https://checkpoint-pack.pages.dev/v1",
+  "files": [
+    {
+      "path": "e5-small-tokenized.onnx",
+      "bytes": 123417936,
+      "sha256": "4833c436ef37fd4da35ad537e8c510ed686f0bc28341d30305b63a656bc6bdcf"
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "pack_id": "ng-police-traffic-stop",
+  "pack_name": "Nigeria — police stop of a motorist",
+  "language": [
+    "en",
+    "fr",
+    "pt"
+  ],
+  "pack_version": "0.6.0",
+  "captured": "2026-09-19",
+  "_STATUS": "DRAFT. Every claim below is anchored in text quoted directly from sources/police_act_2020_gazette.pdf. Section numbers were read from an OCR'd scan and MUST be confirmed against the PDF by eye. A lawyer should review the bucketing before this is shown to anyone.",
+  "buckets": {
+    "settled": {
+      "label": {
+        "en": "Settled law",
+        "fr": "Droit établi",
+        "pt": "Direito assente"
+      },
+      "tone": "confirm"
+    },
+    "contested": {
+      "label": {
+        "en": "Contested",
+        "fr": "Contesté",
+        "pt": "Contestado"
+      },
+      "tone": "caution"
+    },
+    "folk": {
+      "label": {
+        "en": "No legal basis",
+        "fr": "Aucun fondement légal",
+        "pt": "Sem base legal"
+      },
+      "tone": "correct"
+    }
+  },
+  "claims": [
+    {
+      "id": "stop_search_public",
+      "canonical": {
+        "en": "Police can stop and search you in a public place",
+        "fr": "La police peut vous arrêter et vous fouiller dans un lieu public",
+        "pt": "A polícia pode parar e revistar você num lugar público"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Yes. The power to stop and search applies in any place the public has access to. It does not extend to a private residence.",
+        "fr": "Oui. Le pouvoir d'arrêter et de fouiller s'applique à tout lieu auquel le public a accès. Il ne s'étend pas à une résidence privée.",
+        "pt": "Sim. O poder de parar e revistar aplica-se a qualquer lugar a que o público tenha acesso. Não se estende a uma residência particular."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.49(1)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "A public road is covered. Your home is not.",
+        "fr": "Une voie publique est couverte. Votre domicile ne l'est pas.",
+        "pt": "Uma via pública está coberta. Sua casa não está."
+      },
+      "threshold": 0.6,
+      "quote": "49 .-(1) A police officer may exercise the power to stop and search ma ny- (a) place the public or any section of the public has access, on payment or otherwise, as of right or by virtue of express or implied permission ; or (b) other place to which the public has ready access at the time when he proposes to exercise the power but which is not a private residence."
+    },
+    {
+      "id": "needs_reasonable_suspicion",
+      "canonical": {
+        "en": "They need a reason to search me or my vehicle",
+        "fr": "Ils ont besoin d'une raison pour me fouiller ou fouiller mon véhicule",
+        "pt": "Eles precisam de um motivo para me revistar ou revistar meu veículo"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Yes. Every ground for searching a person or vehicle is conditioned on reasonable grounds for suspicion, such as suspected stolen goods or an unlawful article. It is not a power to search everyone passing.",
+        "fr": "Oui. Chaque motif de fouille d'une personne ou d'un véhicule est conditionné à des motifs raisonnables de soupçon, par exemple des biens volés présumés ou un objet illicite. Ce n'est pas un pouvoir de fouiller tout le monde qui passe.",
+        "pt": "Sim. Todo fundamento para revistar uma pessoa ou veículo depende de motivos razoáveis de suspeita, como bens supostamente roubados ou um objeto ilícito. Não é um poder de revistar todos que passam."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.49(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "The grounds belong in the search record.",
+        "fr": "Les motifs doivent figurer au registre de la fouille.",
+        "pt": "Os motivos devem constar do registro da revista."
+      },
+      "threshold": 0.6,
+      "quote": "(2) A Police officer may detain and search any person or vehicle where-­ (a) reasonable grounds for suspicion exist that the person being suspected is having in his possession; or conveying in any manner anything which he has reason to believe to have been stolen or otherwise unlawfully obtained ; (b) reasonable grounds for suspicion exist that such person or vehicle is carrying an unlawful article ; (c) reasonable grounds for sus.picion that incidents involving serious violence may take place within a locality; (d) information has been received as to a description of an article being carrie!� or of a suspected offender ; and (e) a person is carrying a certain type of article at an unusual time or in a place where a number of burglaries or thefts are",
+      "relevant_when": {
+        "allegation": "search_only"
+      }
+    },
+    {
+      "id": "search_vehicle_boot",
+      "canonical": {
+        "en": "They can search my car, my boot or my bag",
+        "fr": "Ils peuvent fouiller ma voiture, mon coffre ou mon sac",
+        "pt": "Eles podem revistar meu carro, meu porta-malas ou minha bolsa"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "The power covers a person or a vehicle, so your car and its boot fall within it, but only where reasonable grounds for suspicion exist. The Act does not name bags or boots separately. They sit inside the general power.",
+        "fr": "Le pouvoir vise une personne ou un véhicule, donc votre voiture et son coffre en relèvent, mais seulement lorsqu'il existe des motifs raisonnables de soupçon. La loi ne nomme pas séparément les sacs ni les coffres. Ils relèvent du pouvoir général.",
+        "pt": "O poder abrange uma pessoa ou um veículo, então seu carro e o porta-malas estão incluídos, mas apenas quando existirem motivos razoáveis de suspeita. A lei não nomeia bolsas ou porta-malas separadamente. Eles ficam dentro do poder geral."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.49(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Same test applies: there must be a stated ground.",
+        "fr": "Le même critère s'applique : un motif doit être énoncé.",
+        "pt": "O mesmo critério se aplica: um motivo tem que ser declarado."
+      },
+      "threshold": 0.6,
+      "relevant_when": {
+        "allegation": "search_only"
+      }
+    },
+    {
+      "id": "before_search_disclosure",
+      "canonical": {
+        "en": "What must they tell me before they search me",
+        "fr": "Que doivent-ils me dire avant de me fouiller",
+        "pt": "O que eles têm que me dizer antes de me revistar"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Before any search of a detained person or vehicle the officer must give you three things: his name and the name of his police station, the object of the search, and his grounds or authorisation for it.",
+        "fr": "Avant toute fouille d'une personne ou d'un véhicule retenus, l'agent doit vous donner trois choses : son nom et le nom de son commissariat, l'objet de la fouille, et ses motifs ou son autorisation.",
+        "pt": "Antes de qualquer revista de pessoa ou veículo detidos, o agente tem que lhe dar três coisas: o nome dele e o nome da delegacia, o objeto da revista, e os motivos ou a autorização."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.50(3)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Name and station, what they are looking for, and on what grounds, all before the search.",
+        "fr": "Nom et commissariat, ce qu'ils cherchent, et sur quels motifs, le tout avant la fouille.",
+        "pt": "Nome e delegacia, o que procuram, e com que fundamento, tudo antes da revista."
+      },
+      "threshold": 0.62,
+      "quote": "(3) Before any search of a detained person or vehicle may take place, the officer shall give the person to be searched or in charge of the vehicle-- (a) his name and the name of the police station to which he is attached ; (b) the object of the search ; and (c) his grounds or authorisation for undertaking the search."
+    },
+    {
+      "id": "uniform_or_id_required",
+      "canonical": {
+        "en": "He is not in uniform, can he still search me",
+        "fr": "Il n'est pas en uniforme, peut-il quand même me fouiller",
+        "pt": "Ele não está de uniforme, pode mesmo assim me revistar"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "To exercise the power to stop and search, an officer shall be in uniform or be visibly wearing a valid police identity card. One or the other is required.",
+        "fr": "Pour exercer le pouvoir d'arrêter et de fouiller, un agent doit être en uniforme ou porter de façon visible une carte d'identité de police valide. L'un ou l'autre est exigé.",
+        "pt": "Para exercer o poder de parar e revistar, o agente deve estar de uniforme ou portar de forma visível uma identificação policial válida. Um ou outro é exigido."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.50(4)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Uniform, or a visible valid police ID.",
+        "fr": "Uniforme, ou carte de police valide et visible.",
+        "pt": "Uniforme, ou identificação policial válida e visível."
+      },
+      "threshold": 0.65,
+      "quote": "( 4) For any police officer to exercise the power to stop and search, he shall be in uniform or wear visibly a valid police identity card. 51.--(1) Reasonable effort shall be taken to minimise the embarrassment that a person or the person w"
+    },
+    {
+      "id": "explanation_can_end_search",
+      "canonical": {
+        "en": "If I explain myself they still have to search me",
+        "fr": "Si je m'explique, doivent-ils quand même me fouiller",
+        "pt": "Se eu me explicar, eles ainda têm que me revistar"
+      },
+      "bucket": "folk",
+      "answer": {
+        "en": "No. The officer must first question you about the behaviour or presence that raised the suspicion. If your explanation makes the search unnecessary, no search may take place.",
+        "fr": "Non. L'agent doit d'abord vous interroger sur le comportement ou la présence qui a fait naître le soupçon. Si votre explication rend la fouille inutile, aucune fouille ne peut avoir lieu.",
+        "pt": "Não. O agente tem que primeiro perguntar sobre o comportamento ou a presença que gerou a suspeita. Se a sua explicação tornar a revista desnecessária, nenhuma revista pode acontecer."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.50(1)-(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Answering the question is not a delay tactic. It can end the search.",
+        "fr": "Répondre à la question n'est pas une manoeuvre dilatoire. Cela peut mettre fin à la fouille.",
+        "pt": "Responder à pergunta não é manobra para ganhar tempo. Pode encerrar a revista."
+      },
+      "threshold": 0.65,
+      "quote": "50.--( 1) Where a police officer is exercising the powers under section 51 of this Act he shall, before carrying out the search, question the person about his behaviour or his presence in circumstances which gave rise to the suspicion. (2) If the person to be searched has a satisfactory explanation which makes a search unnecessary or other circumstances come to the attention of the police officer that make the search unnecessary, no search may take place."
+    },
+    {
+      "id": "public_search_outer_only",
+      "canonical": {
+        "en": "How far can they search me at the roadside",
+        "fr": "Jusqu'où peuvent-ils me fouiller au bord de la route",
+        "pt": "Até onde eles podem me revistar na beira da estrada"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Searches in public are restricted to a superficial examination of outer clothing. Anything beyond that is not a public-roadside search.",
+        "fr": "Les fouilles en public sont limitées à un examen superficiel des vêtements de dessus. Tout ce qui va au-delà n'est pas une fouille de bord de route.",
+        "pt": "As revistas em público limitam-se a um exame superficial das roupas externas. Qualquer coisa além disso não é uma revista de beira de estrada."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.51(5)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Outer clothing only, in public.",
+        "fr": "Vêtements de dessus seulement, en public.",
+        "pt": "Só as roupas externas, em público."
+      },
+      "threshold": 0.62,
+      "quote": "(5) Searches in public shall be restricted to superficial exa!;iination of outer clothing.",
+      "relevant_when": {
+        "allegation": "search_only"
+      }
+    },
+    {
+      "id": "same_sex_private_search",
+      "canonical": {
+        "en": "A male officer wants to search me thoroughly",
+        "fr": "Un agent masculin veut me fouiller intégralement",
+        "pt": "Um agente homem quer me revistar por completo"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "A search requiring removal of clothing or headgear must be done out of public view and by an officer of the same sex, and not in the presence of anyone of the opposite sex unless the person searched asks for it.",
+        "fr": "Une fouille exigeant le retrait de vêtements ou d'un couvre-chef doit se faire à l'abri des regards et par un agent du même sexe, et hors de la présence de toute personne du sexe opposé, sauf si la personne fouillée le demande.",
+        "pt": "Uma revista que exija a retirada de roupas ou de cobertura da cabeça deve ser feita fora da vista do público e por agente do mesmo sexo, e não na presença de pessoa do sexo oposto, salvo se a pessoa revistada pedir."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.51(6)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Same sex, out of public view.",
+        "fr": "Même sexe, à l'abri des regards.",
+        "pt": "Mesmo sexo, fora da vista do público."
+      },
+      "threshold": 0.68,
+      "quote": "( 6) Where it is considered necessary to conduct a more thorough search that requires a person to take off his cloth or headgear, it- ( a) shall be done out of public view and by an officer of the same sex with the person being searched; and (b) may not be made in the presence of anyone of the. opposite sex unless the person being searched requests it. 52.-{1) Where a suspect is arrested by a police officer or a private person, the police officer making the arrest or to whom the private person hands over the suspec"
+    },
+    {
+      "id": "force_last_resort",
+      "canonical": {
+        "en": "They can force me if I do not agree",
+        "fr": "Peuvent-ils me forcer si je refuse",
+        "pt": "Eles podem me forçar se eu não concordar"
+      },
+      "bucket": "contested",
+      "answer": {
+        "en": "The Act says co-operation must be sought in every case, and a forcible search may be used only as a last resort where the person is unwilling to co-operate or resists. Force is not the starting point, but the Act does contemplate it.",
+        "fr": "La loi dit que la coopération doit être recherchée dans chaque cas, et qu'une fouille forcée ne peut être employée qu'en dernier recours lorsque la personne refuse de coopérer ou résiste. La force n'est pas le point de départ, mais la loi l'envisage.",
+        "pt": "A lei diz que a cooperação deve ser buscada em todos os casos, e que uma revista forçada só pode ser usada em último recurso quando a pessoa se recusa a cooperar ou resiste. A força não é o ponto de partida, mas a lei a prevê."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.51(2)-(3)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Co-operation first. Force is the exception, not the opening move.",
+        "fr": "La coopération d'abord. La force est l'exception, pas l'ouverture.",
+        "pt": "Cooperação primeiro. A força é exceção, não o começo."
+      },
+      "threshold": 0.68
+    },
+    {
+      "id": "reasonable_time_only",
+      "canonical": {
+        "en": "They have kept me here a long time for this search",
+        "fr": "Ils me retiennent depuis longtemps pour cette fouille",
+        "pt": "Eles estão me segurando há muito tempo para essa revista"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "How long a person or vehicle may be detained for a search depends on the circumstances, but it shall be within a reasonable time.",
+        "fr": "La durée pendant laquelle une personne ou un véhicule peut être retenu pour une fouille dépend des circonstances, mais elle doit rester dans un délai raisonnable.",
+        "pt": "Quanto tempo uma pessoa ou veículo pode ser retido para uma revista depende das circunstâncias, mas tem que ser dentro de um prazo razoável."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.51(4)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "A search stop is time-limited by what is reasonable.",
+        "fr": "Un contrôle de fouille est limité par ce qui est raisonnable.",
+        "pt": "Uma parada para revista é limitada pelo que for razoável."
+      },
+      "threshold": 0.8
+    },
+    {
+      "id": "undress_in_public",
+      "canonical": {
+        "en": "They can make me remove my clothes at the roadside",
+        "fr": "Peuvent-ils me faire enlever mes vêtements au bord de la route",
+        "pt": "Eles podem me fazer tirar a roupa na beira da estrada"
+      },
+      "bucket": "folk",
+      "answer": {
+        "en": "No. The search power is not to be construed as authorising an officer to require a person to remove any clothing in public.",
+        "fr": "Non. Le pouvoir de fouille ne doit pas être interprété comme autorisant un agent à exiger d'une personne qu'elle retire un vêtement en public.",
+        "pt": "Não. O poder de revista não deve ser interpretado como autorizando um agente a exigir que alguém tire qualquer peça de roupa em público."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.52(5)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Removing clothing in public is not authorised by this power.",
+        "fr": "Retirer un vêtement en public n'est pas autorisé par ce pouvoir.",
+        "pt": "Tirar roupa em público não é autorizado por esse poder."
+      },
+      "threshold": 0.65,
+      "quote": "(5) The powers conferred under this section to search a person are not to be construed as authorising a police officer to require a person to remove any of his clothing in public. Nigeria Police Act, 2020 2020 No. 2 (6) A police officer may not search premises in the exercise of the power conferred"
+    },
+    {
+      "id": "search_recorded",
+      "canonical": {
+        "en": "Does the search have to be written down",
+        "fr": "La fouille doit-elle être consignée par écrit",
+        "pt": "A revista tem que ser registrada por escrito"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Yes. An officer who carries out a search must make a written record, unless it is not practicable, for example with a large group or public disorder.",
+        "fr": "Oui. L'agent qui effectue une fouille doit en établir un procès-verbal écrit, sauf si cela n'est pas réalisable, par exemple avec un groupe nombreux ou en cas de trouble à l'ordre public.",
+        "pt": "Sim. O agente que realiza uma revista tem que fazer um registro escrito, salvo quando não for praticável, por exemplo com um grupo grande ou em caso de desordem pública."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.56(1)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Ask for the record. Its absence is itself a fact.",
+        "fr": "Demandez le procès-verbal. Son absence est elle-même un fait.",
+        "pt": "Peça o registro. A ausência dele já é um fato."
+      },
+      "threshold": 0.6,
+      "quote": "56.--(1) An officer who has carried out a search shall make a written record unless it is not practicable to do so, including situations where the number of persons to be searched is large or in situations involving public disorder."
+    },
+    {
+      "id": "inventory_for_seized",
+      "canonical": {
+        "en": "They took my things, is there paperwork",
+        "fr": "Ils ont pris mes affaires, y a-t-il un document",
+        "pt": "Pegaram minhas coisas, existe algum documento"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Yes. An officer making an arrest must immediately record an inventory of all items recovered, signed by the officer, and a copy goes to you or to someone you name.",
+        "fr": "Oui. L'agent qui procède à une arrestation doit immédiatement dresser l'inventaire de tous les objets récupérés, le signer, et une copie vous revient ou revient à une personne que vous désignez.",
+        "pt": "Sim. O agente que efetua uma prisão tem que registrar imediatamente um inventário de todos os itens recolhidos, assinado por ele, e uma cópia vai para você ou para alguém que você indicar."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.46(1)-(3)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "A signed inventory, and a copy for you.",
+        "fr": "Un inventaire signé, et une copie pour vous.",
+        "pt": "Um inventário assinado, e uma cópia para você."
+      },
+      "threshold": 0.65,
+      "quote": "46.--{ I) A police officer making an arrest or to whom a private person hands over the suspect, shall immediately record information aboutthe arrested suspect and an inventory of all items or property recovered from the suspect",
+      "relevant_when": {
+        "document": true
+      }
+    },
+    {
+      "id": "property_back_if_no_charge",
+      "canonical": {
+        "en": "They kept my property and never charged me",
+        "fr": "Ils ont gardé mes biens sans jamais m'inculper",
+        "pt": "Ficaram com meus bens e nunca me acusaram"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Where property was taken and the suspect is released without charge because there is no sufficient reason to believe an offence was committed, the property shall be returned.",
+        "fr": "Lorsque des biens ont été saisis et que le suspect est libéré sans poursuite parce qu'il n'existe pas de raison suffisante de croire qu'une infraction a été commise, les biens doivent être restitués.",
+        "pt": "Quando bens foram apreendidos e o suspeito é solto sem acusação porque não há razão suficiente para crer que houve infração, os bens devem ser devolvidos."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.46(7)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Released without charge means the property comes back.",
+        "fr": "Libéré sans poursuite signifie que les biens reviennent.",
+        "pt": "Solto sem acusação significa que os bens voltam."
+      },
+      "threshold": 0.65,
+      "relevant_when": {
+        "document": true
+      }
+    },
+    {
+      "id": "give_name_and_address",
+      "canonical": {
+        "en": "Do I have to tell them my name",
+        "fr": "Dois-je leur donner mon nom",
+        "pt": "Eu tenho que dizer meu nome para eles"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Where you are accused of a summary offence and refuse, on demand, to give your name and residential address, or give one the officer has reason to believe is false, you may be arrested so your identity can be ascertained.",
+        "fr": "Lorsque vous êtes accusé d'une infraction sommaire et que vous refusez, sur demande, de donner votre nom et votre adresse de résidence, ou que vous en donnez un que l'agent a des raisons de croire faux, vous pouvez être arrêté afin que votre identité soit établie.",
+        "pt": "Quando você é acusado de uma infração sumária e se recusa, quando solicitado, a dar seu nome e endereço residencial, ou dá um que o agente tenha razão para crer falso, você pode ser preso para que sua identidade seja apurada."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.61(1)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "Withholding your name is itself a ground for arrest here.",
+        "fr": "Taire son nom est ici en soi un motif d'arrestation.",
+        "pt": "Omitir seu nome é, aqui, motivo de prisão por si só."
+      },
+      "threshold": 0.65
+    },
+    {
+      "id": "unlock_my_phone",
+      "canonical": {
+        "en": "They can make me unlock my phone",
+        "fr": "Peuvent-ils me faire déverrouiller mon téléphone",
+        "pt": "Eles podem me obrigar a desbloquear meu celular"
+      },
+      "bucket": "contested",
+      "answer": {
+        "en": "Unclear, and that matters. The stop-and-search power covers a person or a vehicle and says nothing about phones. The words phone, device, computer and password appear nowhere in the Act. Separately, the Constitution protects the privacy of correspondence and telephone communications, and the Cybercrimes Act route to seizing data runs through a judge's warrant. Nobody should tell you this is settled either way.",
+        "fr": "Incertain, et cela compte. Le pouvoir d'arrêter et de fouiller vise une personne ou un véhicule et ne dit rien des téléphones. Les mots téléphone, appareil, ordinateur et mot de passe ne figurent nulle part dans la loi. Par ailleurs, la Constitution protège le secret de la correspondance et des communications téléphoniques, et la voie ouverte par la loi sur la cybercriminalité pour saisir des données passe par un mandat délivré par un juge. Personne ne devrait vous dire que la question est tranchée dans un sens ou dans l'autre.",
+        "pt": "Incerto, e isso importa. O poder de parar e revistar abrange uma pessoa ou um veículo e nada diz sobre telefones. As palavras telefone, dispositivo, computador e senha não aparecem em lugar nenhum da lei. Separadamente, a Constituição protege o sigilo da correspondência e das comunicações telefônicas, e o caminho da lei de crimes cibernéticos para apreender dados passa por um mandado judicial. Ninguém deveria lhe dizer que isso está resolvido em qualquer direção."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "Act silent; see Constitution 1999 s.37 and Cybercrimes Act 2015 s.45",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "There is no clear statutory power here. A roadside argument will not resolve it.",
+        "fr": "Il n'existe pas de pouvoir légal clair ici. Une dispute au bord de la route ne le tranchera pas.",
+        "pt": "Não existe um poder legal claro aqui. Uma discussão na beira da estrada não vai resolver isso."
+      },
+      "threshold": 0.7
+    },
+    {
+      "id": "search_my_house",
+      "canonical": {
+        "en": "They can search my house with this same power",
+        "fr": "Peuvent-ils fouiller ma maison avec ce même pouvoir",
+        "pt": "Eles podem revistar minha casa com esse mesmo poder"
+      },
+      "bucket": "folk",
+      "answer": {
+        "en": "No. The stop-and-search power applies to places the public has access to and expressly excludes a private residence. Searching premises runs on a different footing.",
+        "fr": "Non. Le pouvoir d'arrêter et de fouiller s'applique aux lieux auxquels le public a accès et exclut expressément une résidence privée. La fouille de locaux repose sur un autre fondement.",
+        "pt": "Não. O poder de parar e revistar aplica-se a lugares a que o público tem acesso e exclui expressamente uma residência particular. A busca em imóveis corre por outro fundamento."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.49(1)(b)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "A private residence is outside this power.",
+        "fr": "Une résidence privée est hors de ce pouvoir.",
+        "pt": "Uma residência particular está fora desse poder."
+      },
+      "threshold": 0.65
+    },
+    {
+      "id": "bail_within_24_hours",
+      "canonical": {
+        "en": "They must release me if I have not seen a court in 24 hours",
+        "fr": "Doivent-ils me libérer si je n'ai pas vu de tribunal en 24 heures",
+        "pt": "Eles têm que me soltar se eu não vi um tribunal em 24 horas"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "For an offence not punishable by death, the officer in charge of the station shall inquire into the case and release the suspect on bail where it will not be practicable to bring them before a court within 24 hours of arrest.",
+        "fr": "Pour une infraction non punie de mort, le responsable du commissariat doit examiner l'affaire et libérer le suspect sous caution lorsqu'il ne sera pas possible de le présenter devant un tribunal dans les 24 heures suivant l'arrestation.",
+        "pt": "Para infração não punível com morte, o responsável pela delegacia tem que examinar o caso e soltar o suspeito sob fiança quando não for praticável levá-lo a um tribunal dentro de 24 horas da prisão."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.62(1)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "The 24-hour clock runs from the arrest.",
+        "fr": "Le délai de 24 heures court depuis l'arrestation.",
+        "pt": "O prazo de 24 horas conta a partir da prisão."
+      },
+      "threshold": 0.8,
+      "quote": "62.-(1) Where a suspect has been taken into police custody without a warrant for an offence other than an offence punishable with death, an officer in charge of a police station shall inquire into the case and release the suspect arrested on bail subject to subsection (2), and where it will not be practicable to bring the suspect before a court having jurisdiction with respect to the offence alleged, within 24 hours after the arrest.",
+      "relevant_when": {
+        "detention": true
+      }
+    },
+    {
+      "id": "bail_is_free",
+      "canonical": {
+        "en": "Bail is free",
+        "fr": "La mise en liberté est gratuite",
+        "pt": "A fiança é gratuita"
+      },
+      "bucket": "contested",
+      "answer": {
+        "en": "Careful, because the popular phrasing blurs two different things. The Act provides for release on a recognisance, with or without sureties, for a reasonable amount. A recognisance is a promise to forfeit money if you fail to appear. That is not a fee handed to an officer, and it is not the same as bail costing nothing.",
+        "fr": "Prudence, car la formule populaire mélange deux choses différentes. La loi prévoit une libération sous reconnaissance, avec ou sans cautions, pour un montant raisonnable. Une reconnaissance est l'engagement de perdre une somme si vous ne comparaissez pas. Ce ne sont pas des frais remis à un agent, et ce n'est pas la même chose que dire que la liberté ne coûte rien.",
+        "pt": "Cuidado, porque a formulação popular mistura duas coisas diferentes. A lei prevê a soltura mediante termo de compromisso, com ou sem fiadores, por um valor razoável. Um termo de compromisso é a promessa de perder um valor se você não comparecer. Isso não é uma taxa entregue a um agente, e não é o mesmo que a liberdade não custar nada."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.62(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2020/11/Police-Act-2020-1.pdf",
+        "captured": "2026-09-19"
+      },
+      "next_step": {
+        "en": "A recognisance is recorded. Cash into a hand is not.",
+        "fr": "Une reconnaissance est consignée. De l'argent dans une main ne l'est pas.",
+        "pt": "Um termo de compromisso é registrado. Dinheiro na mão não é."
+      },
+      "threshold": 0.7,
+      "quote": "(2) The police officer in charge of a police station shall release the suspect on bail on his entering into a recognisance with or without sureties for a reasonable amount of money to appear before the court or at the police station at the time and place named in the recognizance."
+    },
+    {
+      "id": "licence_fine_is_10k",
+      "canonical": {
+        "en": "What is the actual fine for driving without a licence",
+        "fr": "Quelle est l'amende réelle pour conduire sans permis",
+        "pt": "Qual é a multa real por dirigir sem carteira"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Ten thousand naira. The Regulations say a person who drives on a public road without being the holder of a valid driver's licence commits an offence and is liable on conviction to a fine of N10,000 or one year imprisonment or both.",
+        "fr": "Dix mille nairas. Le règlement dispose qu'une personne qui conduit sur une voie publique sans être titulaire d'un permis de conduire valide commet une infraction et encourt, sur condamnation, une amende de 10 000 N ou un an d'emprisonnement, ou les deux.",
+        "pt": "Dez mil nairas. O regulamento diz que quem dirige em via pública sem ser titular de carteira de motorista válida comete infração e fica sujeito, mediante condenação, a multa de N10.000 ou um ano de prisão, ou ambos."
+      },
+      "citation": {
+        "instrument": "National Road Traffic Regulations 2012",
+        "section": "reg. 74(1)-(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/National-Road-Traffic-Regulations-2012.pdf",
+        "captured": "2026-09-20"
+      },
+      "next_step": {
+        "en": "The published figure is N10,000. Any larger number is not this fine.",
+        "fr": "Le chiffre publié est de 10 000 N. Tout montant supérieur n'est pas cette amende.",
+        "pt": "O valor publicado é N10.000. Qualquer número maior não é essa multa."
+      },
+      "threshold": 0.58,
+      "quote": "74.—(1) A person shall not drive on a public road a motor vehicle of any class or description unless he is the holder of a valid driver’s licence in respect of that class of vehicle. (2) A person who contravenes the provisions of sub-regulation (1) of this regulation commits an offence and shall be liable on conviction to a fine of N10,000:00 or term of 1 year imprisonment or to both.",
+      "relevant_when": {
+        "allegation": "licence"
+      }
+    },
+    {
+      "id": "fine_requires_conviction",
+      "canonical": {
+        "en": "Can they make me pay a fine here at the roadside",
+        "fr": "Peuvent-ils me faire payer une amende ici au bord de la route",
+        "pt": "Eles podem me fazer pagar multa aqui na beira da estrada"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "A fine under these Regulations is payable on conviction. The phrase 'liable on conviction' is used 62 times throughout them. A court convicts and a court fines. Money handed to an officer at the roadside is not the fine the Regulations describe.",
+        "fr": "Une amende prévue par ce règlement est exigible sur condamnation. L'expression « liable on conviction » y apparaît 62 fois. C'est un tribunal qui condamne et un tribunal qui inflige l'amende. De l'argent remis à un agent au bord de la route n'est pas l'amende décrite par le règlement.",
+        "pt": "Uma multa prevista neste regulamento é devida mediante condenação. A expressão « liable on conviction » aparece 62 vezes nele. Um tribunal condena e um tribunal aplica a multa. Dinheiro entregue a um agente na beira da estrada não é a multa que o regulamento descreve."
+      },
+      "citation": {
+        "instrument": "National Road Traffic Regulations 2012",
+        "section": "reg. 74(2) and throughout",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/National-Road-Traffic-Regulations-2012.pdf",
+        "captured": "2026-09-20"
+      },
+      "next_step": {
+        "en": "A fine follows a conviction. There is no roadside fine in these Regulations.",
+        "fr": "L'amende suit la condamnation. Il n'existe pas d'amende de bord de route dans ce règlement.",
+        "pt": "A multa vem depois da condenação. Não existe multa de beira de estrada neste regulamento."
+      },
+      "threshold": 0.58,
+      "quote": "(2) A person who contravenes the provisions of sub-regulation (1) of this regulation commits an offence and shall be liable on conviction to a fine of N10,000:00 or term of 1 year imprisonment or to both.",
+      "relevant_when": {
+        "money": true,
+        "channel": "cash_or_pos"
+      }
+    },
+    {
+      "id": "learner_permit_status",
+      "canonical": {
+        "en": "I have a learner's permit, not a full licence",
+        "fr": "J'ai un permis d'apprenti conducteur, pas un permis complet",
+        "pt": "Eu tenho permissão de aprendiz, não a carteira definitiva"
+      },
+      "bucket": "contested",
+      "answer": {
+        "en": "Genuinely unsettled, and here is why. A Learner's Permit is granted under reg. 42 and lets the holder drive the stated type of vehicle for up to three months, but only with a licenced driver or instructor sitting beside them, and carrying no other passengers. Separately, reg. 74 requires a valid driver's licence. The Regulations treat a Permit and a licence as different instruments, so whether a Permit satisfies reg. 74 is arguable either way. Nobody should tell you it is obvious.",
+        "fr": "Réellement non tranché, et voici pourquoi. Un permis d'apprenti est délivré au titre de l'article 42 et permet à son titulaire de conduire le type de véhicule indiqué pendant trois mois au plus, mais uniquement avec un conducteur titulaire d'un permis ou un moniteur assis à côté de lui, et sans autre passager. Par ailleurs, l'article 74 exige un permis de conduire valide. Le règlement traite le permis d'apprenti et le permis de conduire comme deux titres distincts, de sorte que la question de savoir si un permis d'apprenti satisfait à l'article 74 se défend dans les deux sens. Personne ne devrait vous dire que c'est évident.",
+        "pt": "Genuinamente indefinido, e eis por quê. A permissão de aprendiz é concedida ao abrigo do art. 42 e permite ao titular conduzir o tipo de veículo indicado por até três meses, mas apenas com um motorista habilitado ou instrutor sentado ao lado, e sem outros passageiros. Separadamente, o art. 74 exige carteira de motorista válida. O regulamento trata a permissão e a carteira como títulos diferentes, de modo que se a permissão satisfaz o art. 74 é defensável nos dois sentidos. Ninguém deveria lhe dizer que isso é óbvio."
+      },
+      "citation": {
+        "instrument": "National Road Traffic Regulations 2012",
+        "section": "reg. 42(1),(5),(6) and reg. 74(1)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/National-Road-Traffic-Regulations-2012.pdf",
+        "captured": "2026-09-20"
+      },
+      "next_step": {
+        "en": "A Permit is conditional: instructor beside you, no passengers, three months.",
+        "fr": "Un permis d'apprenti est conditionnel : moniteur à côté, aucun passager, trois mois.",
+        "pt": "A permissão é condicional: instrutor ao lado, sem passageiros, três meses."
+      },
+      "threshold": 0.62,
+      "quote": "42.—(1) Subject to the provisions of these Regulations, an applicant for a Learner’s Permit shall pay the prescribed fees and shall be granted a Learner’s Permit which shall entitle him to drive a motor vehicle of the group or type stated in the permit for a period not exceeding three months from the date of issuance of the Learner’s Permit.",
+      "relevant_when": {
+        "allegation": "licence"
+      }
+    },
+    {
+      "id": "particulars_photocopy_ok",
+      "canonical": {
+        "en": "They say my vehicle particulars must be the originals",
+        "fr": "Ils disent que mes papiers de véhicule doivent être les originaux",
+        "pt": "Eles dizem que os documentos do meu veículo têm que ser os originais"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Photocopies are enough to be driving with. The Regulations require you to have at least photocopies of the vehicle particulars on you, and the originals go to the authority within 24 hours if they are demanded. Not carrying originals is not itself the offence.",
+        "fr": "Des photocopies suffisent pour circuler. Le règlement exige que vous ayez sur vous au moins des photocopies des papiers du véhicule, et les originaux vont à l'autorité dans les 24 heures s'ils sont demandés. Ne pas porter les originaux n'est pas en soi l'infraction.",
+        "pt": "Fotocópias bastam para circular. O regulamento exige que você leve consigo ao menos fotocópias dos documentos do veículo, e os originais vão à autoridade em 24 horas se forem exigidos. Não portar os originais não é, por si só, a infração."
+      },
+      "quote": "(3) Any person driving a vehicle must be in possession of at least the photocopies of the vehicle particulars, and the originals shall be provided to the appropriate authority within 24 hours if so demanded. (4) Any person who contravenes the provisions of regulation 67 (3) of these Regulations commits an offence and is liable upon conviction to a fine of N3,000:00 or to a term of 6 months imprisonment or to both.",
+      "citation": {
+        "instrument": "National Road Traffic Regulations 2012",
+        "section": "reg. 67(3)-(4)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/National-Road-Traffic-Regulations-2012.pdf",
+        "captured": "2026-09-20"
+      },
+      "next_step": {
+        "en": "Photocopies now, originals within 24 hours if asked.",
+        "fr": "Photocopies maintenant, originaux sous 24 heures si demandés.",
+        "pt": "Fotocópias agora, originais em 24 horas se pedirem."
+      },
+      "threshold": 0.58,
+      "relevant_when": {
+        "allegation": "particulars"
+      }
+    },
+    {
+      "id": "particulars_fine_is_3k",
+      "canonical": {
+        "en": "What is the fine for not having my vehicle particulars",
+        "fr": "Quelle est l'amende pour ne pas avoir les papiers du véhicule",
+        "pt": "Qual é a multa por não ter os documentos do veículo"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "Three thousand naira, on conviction. A person who fails to carry at least photocopies of the vehicle particulars commits an offence and is liable upon conviction to a fine of N3,000 or six months imprisonment or both.",
+        "fr": "Trois mille nairas, sur condamnation. Une personne qui omet de porter au moins des photocopies des papiers du véhicule commet une infraction et encourt, sur condamnation, une amende de 3 000 N ou six mois d'emprisonnement, ou les deux.",
+        "pt": "Três mil nairas, mediante condenação. Quem deixa de portar ao menos fotocópias dos documentos do veículo comete infração e fica sujeito, mediante condenação, a multa de N3.000 ou seis meses de prisão, ou ambos."
+      },
+      "quote": "(3) Any person driving a vehicle must be in possession of at least the photocopies of the vehicle particulars, and the originals shall be provided to the appropriate authority within 24 hours if so demanded. (4) Any person who contravenes the provisions of regulation 67 (3) of these Regulations commits an offence and is liable upon conviction to a fine of N3,000:00 or to a term of 6 months imprisonment or to both.",
+      "citation": {
+        "instrument": "National Road Traffic Regulations 2012",
+        "section": "reg. 67(4)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/National-Road-Traffic-Regulations-2012.pdf",
+        "captured": "2026-09-20"
+      },
+      "next_step": {
+        "en": "The published figure is N3,000, and a court sets it.",
+        "fr": "Le chiffre publié est de 3 000 N, et c'est un tribunal qui le fixe.",
+        "pt": "O valor publicado é N3.000, e quem o fixa é um tribunal."
+      },
+      "threshold": 0.58,
+      "relevant_when": {
+        "allegation": "particulars"
+      }
+    },
+    {
+      "id": "licence_original_24h",
+      "canonical": {
+        "en": "They say I must have the original driver's licence on me",
+        "fr": "Ils disent que je dois avoir l'original du permis sur moi",
+        "pt": "Eles dizem que eu tenho que estar com a carteira original"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "You should carry the original, but a photocopy is not the end of it. The Regulations give you 24 hours to produce the original to the authority if it is demanded. The fine for contravening is N10,000 on conviction. One drafting oddity worth knowing: sub-regulation (2) refers back to 'regulation 61(1)' although it sits inside regulation 67, so check the numbering if you rely on it.",
+        "fr": "Vous devriez porter l'original, mais une photocopie n'est pas la fin de l'histoire. Le règlement vous donne 24 heures pour présenter l'original à l'autorité s'il est demandé. L'amende en cas de contravention est de 10 000 N sur condamnation. Une curiosité de rédaction mérite d'être connue : le sous-article (2) renvoie à « l'article 61(1) » alors qu'il se trouve dans l'article 67, donc vérifiez la numérotation si vous vous en servez.",
+        "pt": "Você deve portar o original, mas uma fotocópia não encerra o assunto. O regulamento lhe dá 24 horas para apresentar o original à autoridade se ele for exigido. A multa por contravenção é de N10.000 mediante condenação. Vale conhecer uma esquisitice de redação: o subitem (2) remete ao « regulamento 61(1) » embora esteja dentro do regulamento 67, então confira a numeração se for se apoiar nela."
+      },
+      "quote": "67.—(1) Any person driving a vehicle on any public road shall be in possession of an original driver’s licence but where the person is in possession of the photocopy of the original driver’s licence he shall within 24 hours produce the original driver’s licence to the appropriate authority if demanded. (2) Any person who contravenes the provisions of regulation 61 (1) of these Regulations commits an offence and shall be liable on conviction to a fine of N10,000:00 or to a term of 1 year imprisonment or to both.",
+      "citation": {
+        "instrument": "National Road Traffic Regulations 2012",
+        "section": "reg. 67(1)-(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/National-Road-Traffic-Regulations-2012.pdf",
+        "captured": "2026-09-20"
+      },
+      "next_step": {
+        "en": "A photocopy plus 24 hours to produce the original.",
+        "fr": "Une photocopie, plus 24 heures pour présenter l'original.",
+        "pt": "Uma fotocópia, mais 24 horas para apresentar o original."
+      },
+      "threshold": 0.58,
+      "relevant_when": {
+        "allegation": "licence"
+      }
+    }
+  ],
+  "abstain": {
+    "headline": {
+      "en": "Sorry, I don't have a checked answer for that.",
+      "fr": "Désolé, je n'ai pas de réponse vérifiée à cela.",
+      "pt": "Desculpe, não tenho uma resposta verificada para isso."
+    },
+    "body": {
+      "en": "I only carry claims that have been checked against published law, and none of mine cover this. Rather than hand you something that merely looks close, here is who can actually help.",
+      "fr": "Je ne porte que des affirmations vérifiées contre la loi publiée, et aucune ne couvre ceci. Plutôt que de vous donner quelque chose qui semble seulement proche, voici qui peut réellement vous aider.",
+      "pt": "Eu só carrego afirmações verificadas contra a lei publicada, e nenhuma cobre isso. Em vez de lhe dar algo que apenas parece próximo, aqui está quem pode realmente ajudar."
+    },
+    "channels": [
+      {
+        "name": "Police Complaint Response Unit",
+        "detail": {
+          "en": "Call 0805 700 0001 or 0805 700 0002 · SMS/WhatsApp 0805 700 0003. Have the date, time and place.",
+          "fr": "Appelez le 0805 700 0001 ou le 0805 700 0002 · SMS/WhatsApp 0805 700 0003. Ayez la date, l'heure et le lieu.",
+          "pt": "Ligue 0805 700 0001 ou 0805 700 0002 · SMS/WhatsApp 0805 700 0003. Tenha a data, a hora e o local."
+        },
+        "url": "https://npf.gov.ng/complaint/"
+      },
+      {
+        "name": "ReportGov.ng",
+        "detail": {
+          "en": "Federal government service-complaint portal (PEBEC). Tracks resolution.",
+          "fr": "Portail fédéral de réclamation de service (PEBEC). Suit la résolution.",
+          "pt": "Portal federal de reclamações de serviço (PEBEC). Acompanha a resolução."
+        },
+        "url": "https://reportgov.ng"
+      }
+    ]
+  },
+  "_CHANNELS_NOTE": "Channel numbers came from secondary reporting. VERIFY each against an official page before shipping.",
+  "_QUOTE_NOTE": "quote fields are extracted verbatim from the source text files, not paraphrased. The Police Act text is OCR of a scanned gazette and contains character errors; the NRTR 2012 text layer is clean. Proofread every quote against the PDF."
+}

@@ -1,0 +1,271 @@
+text,lang,agency,money,channel,detention,document,allegation
+"police stopped me saying I have no licence, they want 100k by POS",en,police,1,cash_or_pos,0,0,licence
+"la police m'a arrêté disant que je n'ai pas de permis, ils veulent 100000 par terminal",fr,police,1,cash_or_pos,0,0,licence
+"a polícia me parou dizendo que não tenho carteira, querem 100 mil pela maquininha",pt,police,1,cash_or_pos,0,0,licence
+they say I should settle them before they release my car,en,unclear,1,cash_or_pos,0,1,none_stated
+ils disent que je dois m'arranger avec eux avant qu'ils rendent ma voiture,fr,unclear,1,cash_or_pos,0,1,none_stated
+dizem que tenho que acertar com eles antes de liberarem meu carro,pt,unclear,1,cash_or_pos,0,1,none_stated
+the officer took my key and said I should drop something,en,police,1,cash_or_pos,0,1,none_stated
+l'agent a pris ma clé et dit que je dois laisser quelque chose,fr,police,1,cash_or_pos,0,1,none_stated
+o agente pegou minha chave e disse para eu deixar alguma coisa,pt,police,1,cash_or_pos,0,1,none_stated
+FRSC stopped me for tint and gave me a paper to pay at the bank,en,frsc,1,official,0,0,other_offence
+la FRSC m'a arrêté pour les vitres teintées et donné un papier à payer à la banque,fr,frsc,1,official,0,0,other_offence
+a FRSC me parou pelo insulfilm e me deu um papel para pagar no banco,pt,frsc,1,official,0,0,other_offence
+they say I must follow them to the station if I do not pay,en,police,1,cash_or_pos,1,0,none_stated
+ils disent que je dois les suivre au poste si je ne paie pas,fr,police,1,cash_or_pos,1,0,none_stated
+dizem que tenho que ir com eles para a delegacia se não pagar,pt,police,1,cash_or_pos,1,0,none_stated
+a soldier on the road is asking for money,en,army,1,cash_or_pos,0,0,none_stated
+un soldat sur la route demande de l'argent,fr,army,1,cash_or_pos,0,0,none_stated
+um soldado na estrada está pedindo dinheiro,pt,army,1,cash_or_pos,0,0,none_stated
+VIO took my particulars and said I should come to the office,en,vio,0,none_stated,0,1,particulars
+le VIO a pris mes papiers et dit de venir au bureau,fr,vio,0,none_stated,0,1,particulars
+o VIO pegou meus documentos e disse para eu ir ao escritório,pt,vio,0,none_stated,0,1,particulars
+police searched my boot then let me go,en,police,0,none_stated,0,0,search_only
+la police a fouillé mon coffre puis m'a laissé partir,fr,police,0,none_stated,0,0,search_only
+a polícia revistou meu porta-malas e me deixou ir,pt,police,0,none_stated,0,0,search_only
+they are holding my licence and say I must pay 20k cash,en,police,1,cash_or_pos,0,1,licence
+ils gardent mon permis et disent que je dois payer 20000 en espèces,fr,police,1,cash_or_pos,0,1,licence
+estão com minha carteira e dizem que tenho que pagar 20 mil em dinheiro,pt,police,1,cash_or_pos,0,1,licence
+FRSC gave me an official receipt after I paid the fine,en,frsc,1,official,0,0,none_stated
+la FRSC m'a donné un reçu officiel après le paiement de l'amende,fr,frsc,1,official,0,0,none_stated
+a FRSC me deu um recibo oficial depois que paguei a multa,pt,frsc,1,official,0,0,none_stated
+the officer said I should enter their van,en,police,0,none_stated,1,0,none_stated
+l'agent m'a dit de monter dans leur camionnette,fr,police,0,none_stated,1,0,none_stated
+o agente mandou eu entrar na viatura deles,pt,police,0,none_stated,1,0,none_stated
+they have wanted to take me to the station since morning,en,police,0,none_stated,1,0,none_stated
+ils veulent m'emmener au poste depuis ce matin,fr,police,0,none_stated,1,0,none_stated
+querem me levar para a delegacia desde de manhã,pt,police,0,none_stated,1,0,none_stated
+they took my phone and gave me no paper,en,police,0,none_stated,0,1,particulars
+ils ont pris mon téléphone sans me donner de papier,fr,police,0,none_stated,0,1,particulars
+pegaram meu telefone e não me deram nenhum papel,pt,police,0,none_stated,0,1,particulars
+police say I should transfer to his personal account,en,police,1,cash_or_pos,0,0,none_stated
+le policier dit de virer sur son compte personnel,fr,police,1,cash_or_pos,0,0,none_stated
+o policial disse para transferir para a conta pessoal dele,pt,police,1,cash_or_pos,0,0,none_stated
+they asked for 5k before releasing my car,en,unclear,1,cash_or_pos,0,1,none_stated
+ils demandent 5000 avant de rendre ma voiture,fr,unclear,1,cash_or_pos,0,1,none_stated
+pediram 5 mil antes de liberar meu carro,pt,unclear,1,cash_or_pos,0,1,none_stated
+the officer just checked my particulars and waved me on,en,police,0,none_stated,0,0,particulars
+l'agent a simplement vérifié mes papiers et m'a fait signe de passer,fr,police,0,none_stated,0,0,particulars
+o agente só conferiu meus documentos e me liberou,pt,police,0,none_stated,0,0,particulars
+they say I will sleep in a cell if I do not bring money,en,police,1,cash_or_pos,1,0,none_stated
+ils disent que je dormirai en cellule si je n'apporte pas d'argent,fr,police,1,cash_or_pos,1,0,none_stated
+dizem que vou dormir na cela se não trouxer dinheiro,pt,police,1,cash_or_pos,1,0,none_stated
+FRSC booked me and gave me a ticket number,en,frsc,1,official,0,0,none_stated
+la FRSC m'a verbalisé et donné un numéro de contravention,fr,frsc,1,official,0,0,none_stated
+a FRSC me autuou e me deu um número de notificação,pt,frsc,1,official,0,0,none_stated
+police have been holding my vehicle documents since yesterday,en,police,0,none_stated,0,1,particulars
+la police garde mes papiers de voiture depuis hier,fr,police,0,none_stated,0,1,particulars
+a polícia está com os documentos do meu carro desde ontem,pt,police,0,none_stated,0,1,particulars
+"they did not ask for money, they only searched my bag",en,unclear,0,none_stated,0,0,search_only
+"ils n'ont pas demandé d'argent, ils ont seulement fouillé mon sac",fr,unclear,0,none_stated,0,0,search_only
+"não pediram dinheiro, só revistaram minha bolsa",pt,unclear,0,none_stated,0,0,search_only
+a soldier took my key and said I should settle,en,army,1,cash_or_pos,0,1,none_stated
+un soldat a pris ma clé et dit de m'arranger avec lui,fr,army,1,cash_or_pos,0,1,none_stated
+um soldado pegou minha chave e disse para eu acertar com ele,pt,army,1,cash_or_pos,0,1,none_stated
+VIO says my papers are not complete and wants 15k,en,vio,1,cash_or_pos,0,1,particulars
+le VIO dit que mes papiers sont incomplets et veut 15000,fr,vio,1,cash_or_pos,0,1,particulars
+o VIO diz que meus papéis estão incompletos e quer 15 mil,pt,vio,1,cash_or_pos,0,1,particulars
+the officer asked me to pay into a government account,en,police,1,official,0,0,none_stated
+l'agent m'a demandé de payer sur un compte de l'État,fr,police,1,official,0,0,none_stated
+o agente pediu para eu pagar numa conta do governo,pt,police,1,official,0,0,none_stated
+they have locked me in the station since last night,en,police,0,none_stated,1,0,none_stated
+ils m'ont enfermé au poste depuis cette nuit,fr,police,0,none_stated,1,0,none_stated
+me trancaram na delegacia desde a noite,pt,police,0,none_stated,1,0,none_stated
+police say bring 50k or they take me to the station,en,police,1,cash_or_pos,1,0,none_stated
+la police dit d'apporter 50000 sinon ils m'emmènent au poste,fr,police,1,cash_or_pos,1,0,none_stated
+a polícia disse para trazer 50 mil ou me levam para a delegacia,pt,police,1,cash_or_pos,1,0,none_stated
+they searched the car and found nothing so I left,en,police,0,none_stated,0,0,search_only
+ils ont fouillé la voiture sans rien trouver et je suis parti,fr,police,0,none_stated,0,0,search_only
+"revistaram o carro e não acharam nada, então fui embora",pt,police,0,none_stated,0,0,search_only
+an officer is demanding cash before he returns my licence,en,police,1,cash_or_pos,0,1,licence
+un agent exige de l'argent avant de rendre mon permis,fr,police,1,cash_or_pos,0,1,licence
+um agente exige dinheiro antes de devolver minha carteira,pt,police,1,cash_or_pos,0,1,licence
+FRSC issued a formal notice for the offence,en,frsc,1,official,0,0,none_stated
+la FRSC a délivré un avis officiel pour l'infraction,fr,frsc,1,official,0,0,none_stated
+a FRSC emitiu uma notificação formal pela infração,pt,frsc,1,official,0,0,none_stated
+they are threatening to detain me overnight,en,police,0,none_stated,1,0,none_stated
+ils menacent de me garder toute la nuit,fr,police,0,none_stated,1,0,none_stated
+estão ameaçando me deter a noite toda,pt,police,0,none_stated,1,0,none_stated
+he took my driver licence and will not give it back,en,unclear,0,none_stated,0,1,licence
+il a pris mon permis et refuse de le rendre,fr,unclear,0,none_stated,0,1,licence
+ele pegou minha carteira e não quer devolver,pt,unclear,0,none_stated,0,1,licence
+the road safety officer stopped me for seatbelt,en,frsc,0,none_stated,0,0,other_offence
+l'agent de sécurité routière m'a arrêté pour la ceinture,fr,frsc,0,none_stated,0,0,other_offence
+o agente de trânsito me parou pelo cinto de segurança,pt,frsc,0,none_stated,0,0,other_offence
+soldiers at the checkpoint are collecting money from drivers,en,army,1,cash_or_pos,0,0,licence
+les soldats au barrage collectent de l'argent auprès des conducteurs,fr,army,1,cash_or_pos,0,0,licence
+os soldados na barreira estão recolhendo dinheiro dos motoristas,pt,army,1,cash_or_pos,0,0,licence
+"he says I should pay him directly, no receipt",en,police,1,cash_or_pos,0,0,none_stated
+"il dit de le payer directement, sans reçu",fr,police,1,cash_or_pos,0,0,none_stated
+"ele disse para pagar diretamente a ele, sem recibo",pt,police,1,cash_or_pos,0,0,none_stated
+they want to take me to the station for questioning,en,police,0,none_stated,1,0,none_stated
+ils veulent m'emmener au poste pour un interrogatoire,fr,police,0,none_stated,1,0,none_stated
+querem me levar para a delegacia para prestar depoimento,pt,police,0,none_stated,1,0,none_stated
+vehicle inspection officer seized my papers,en,vio,0,none_stated,0,1,particulars
+l'inspecteur des véhicules a saisi mes papiers,fr,vio,0,none_stated,0,1,particulars
+o inspetor de veículos apreendeu meus documentos,pt,vio,0,none_stated,0,1,particulars
+police checked my boot and let me go,en,police,0,none_stated,0,0,search_only
+la police a vérifié mon coffre et m'a laissé partir,fr,police,0,none_stated,0,0,search_only
+a polícia conferiu meu porta-malas e me liberou,pt,police,0,none_stated,0,0,search_only
+"they say it is 8k for the offence, cash only",en,unclear,1,cash_or_pos,0,0,none_stated
+"ils disent que c'est 8000 pour l'infraction, espèces uniquement",fr,unclear,1,cash_or_pos,0,0,none_stated
+"dizem que é 8 mil pela infração, só em dinheiro",pt,unclear,1,cash_or_pos,0,0,none_stated
+FRSC told me to pay at the bank and bring the teller,en,frsc,1,official,0,0,none_stated
+la FRSC m'a dit de payer à la banque et d'apporter le bordereau,fr,frsc,1,official,0,0,none_stated
+a FRSC mandou pagar no banco e levar o comprovante,pt,frsc,1,official,0,0,none_stated
+they took me to the station and have not released me,en,police,0,none_stated,1,0,none_stated
+ils m'ont emmené au poste et ne m'ont pas libéré,fr,police,0,none_stated,1,0,none_stated
+me levaram para a delegacia e não me soltaram,pt,police,0,none_stated,1,0,none_stated
+the officer did not ask for money but is holding my particulars,en,police,0,none_stated,0,1,particulars
+l'agent n'a pas demandé d'argent mais garde mes papiers,fr,police,0,none_stated,0,1,particulars
+o agente não pediu dinheiro mas está com meus documentos,pt,police,0,none_stated,0,1,particulars
+they demanded money and also kept my phone,en,police,1,cash_or_pos,0,1,none_stated
+ils ont exigé de l'argent et gardé mon téléphone,fr,police,1,cash_or_pos,0,1,none_stated
+exigiram dinheiro e ainda ficaram com meu telefone,pt,police,1,cash_or_pos,0,1,none_stated
+they want me to pay them with a POS machine,en,unclear,1,cash_or_pos,0,0,none_stated
+ils veulent que je paie avec le terminal de paiement,fr,unclear,1,cash_or_pos,0,0,none_stated
+querem que eu pague com a maquininha,pt,unclear,1,cash_or_pos,0,0,none_stated
+the checkpoint is manned by soldiers asking for papers,en,army,0,none_stated,0,0,particulars
+le barrage est tenu par des soldats qui demandent les papiers,fr,army,0,none_stated,0,0,particulars
+a barreira está com soldados pedindo documentos,pt,army,0,none_stated,0,0,particulars
+police searched me and asked nothing else,en,police,0,none_stated,0,0,search_only
+la police m'a fouillé et n'a rien demandé d'autre,fr,police,0,none_stated,0,0,search_only
+a polícia me revistou e não pediu mais nada,pt,police,0,none_stated,0,0,search_only
+they threatened to detain me if I do not settle,en,police,1,cash_or_pos,1,0,none_stated
+ils menacent de me détenir si je ne m'arrange pas,fr,police,1,cash_or_pos,1,0,none_stated
+ameaçaram me deter se eu não acertar com eles,pt,police,1,cash_or_pos,1,0,none_stated
+the VIO officer wants 10k before releasing my car,en,vio,1,cash_or_pos,0,1,none_stated
+l'agent du VIO veut 10000 avant de rendre ma voiture,fr,vio,1,cash_or_pos,0,1,none_stated
+o agente do VIO quer 10 mil antes de liberar meu carro,pt,vio,1,cash_or_pos,0,1,none_stated
+FRSC gave me a court date instead of collecting money,en,frsc,0,official,0,0,none_stated
+la FRSC m'a donné une date d'audience au lieu de prendre de l'argent,fr,frsc,0,official,0,0,none_stated
+a FRSC me deu uma data de audiência em vez de cobrar dinheiro,pt,frsc,0,official,0,0,none_stated
+he is holding my key and demanding cash,en,unclear,1,cash_or_pos,0,1,none_stated
+il garde ma clé et exige de l'argent,fr,unclear,1,cash_or_pos,0,1,none_stated
+ele está com minha chave e exigindo dinheiro,pt,unclear,1,cash_or_pos,0,1,none_stated
+they took me into custody without saying why,en,police,0,none_stated,1,0,none_stated
+ils m'ont placé en garde à vue sans dire pourquoi,fr,police,0,none_stated,1,0,none_stated
+me detiveram sem dizer o motivo,pt,police,0,none_stated,1,0,none_stated
+the officer asked for my particulars and returned them,en,police,0,none_stated,0,0,particulars
+l'agent a demandé mes papiers et me les a rendus,fr,police,0,none_stated,0,0,particulars
+o agente pediu meus documentos e devolveu,pt,police,0,none_stated,0,0,particulars
+they are asking money from every car that passes,en,unclear,1,cash_or_pos,0,0,none_stated
+ils demandent de l'argent à chaque voiture qui passe,fr,unclear,1,cash_or_pos,0,0,none_stated
+estão pedindo dinheiro de todo carro que passa,pt,unclear,1,cash_or_pos,0,0,none_stated
+"police say I should pay the fine on the road, no receipt",en,police,1,cash_or_pos,0,0,none_stated
+"la police dit de payer l'amende sur la route, sans reçu",fr,police,1,cash_or_pos,0,0,none_stated
+"a polícia disse para pagar a multa na estrada, sem recibo",pt,police,1,cash_or_pos,0,0,none_stated
+a soldier said I should enter the truck,en,army,0,none_stated,1,0,none_stated
+un soldat m'a dit de monter dans le camion,fr,army,0,none_stated,1,0,none_stated
+um soldado mandou eu entrar no caminhão,pt,army,0,none_stated,1,0,none_stated
+FRSC impounded my vehicle and issued papers,en,frsc,0,official,0,1,particulars
+la FRSC a mis ma voiture en fourrière et délivré des papiers,fr,frsc,0,official,0,1,particulars
+a FRSC apreendeu meu veículo e emitiu os papéis,pt,frsc,0,official,0,1,particulars
+they searched my person on the road and nothing happened after,en,police,0,none_stated,0,0,search_only
+ils m'ont fouillé sur la route et rien ne s'est passé ensuite,fr,police,0,none_stated,0,0,search_only
+me revistaram na estrada e nada aconteceu depois,pt,police,0,none_stated,0,0,search_only
+the officer wants payment by bank transfer to himself,en,police,1,cash_or_pos,0,0,none_stated
+l'agent veut un virement bancaire sur son propre compte,fr,police,1,cash_or_pos,0,0,none_stated
+o agente quer transferência bancária para a conta dele,pt,police,1,cash_or_pos,0,0,none_stated
+they kept my documents until I pay,en,unclear,1,cash_or_pos,0,1,particulars
+ils gardent mes documents jusqu'à ce que je paie,fr,unclear,1,cash_or_pos,0,1,particulars
+ficaram com meus documentos até eu pagar,pt,unclear,1,cash_or_pos,0,1,particulars
+VIO has been holding my car papers since last week,en,vio,0,none_stated,0,1,particulars
+le VIO garde les papiers de ma voiture depuis la semaine dernière,fr,vio,0,none_stated,0,1,particulars
+o VIO está com os papéis do meu carro desde a semana passada,pt,vio,0,none_stated,0,1,particulars
+they told me to go to the bank and pay,en,frsc,1,official,0,0,none_stated
+ils m'ont dit d'aller payer à la banque,fr,frsc,1,official,0,0,none_stated
+me mandaram ir ao banco pagar,pt,frsc,1,official,0,0,none_stated
+police took me to a cell because I did not have 50k,en,police,1,cash_or_pos,1,0,none_stated
+la police m'a mis en cellule parce que je n'avais pas 50000,fr,police,1,cash_or_pos,1,0,none_stated
+a polícia me colocou na cela porque eu não tinha 50 mil,pt,police,1,cash_or_pos,1,0,none_stated
+the officer searched my bag then allowed me to go,en,police,0,none_stated,0,0,search_only
+l'agent a fouillé mon sac puis m'a laissé partir,fr,police,0,none_stated,0,0,search_only
+o agente revistou minha bolsa e me deixou ir,pt,police,0,none_stated,0,0,search_only
+they are demanding money at the checkpoint,en,unclear,1,cash_or_pos,0,0,none_stated
+ils exigent de l'argent au barrage,fr,unclear,1,cash_or_pos,0,0,none_stated
+estão exigindo dinheiro na barreira,pt,unclear,1,cash_or_pos,0,0,none_stated
+they say I should drop 2k to pass,en,unclear,1,cash_or_pos,0,0,none_stated
+ils disent de laisser 2000 pour passer,fr,unclear,1,cash_or_pos,0,0,none_stated
+dizem para eu deixar 2 mil para passar,pt,unclear,1,cash_or_pos,0,0,none_stated
+FRSC wrote the offence on an official form,en,frsc,0,official,0,0,none_stated
+la FRSC a inscrit l'infraction sur un formulaire officiel,fr,frsc,0,official,0,0,none_stated
+a FRSC registrou a infração num formulário oficial,pt,frsc,0,official,0,0,none_stated
+the soldier took my licence and walked away,en,army,0,none_stated,0,1,licence
+le soldat a pris mon permis et s'est éloigné,fr,army,0,none_stated,0,1,licence
+o soldado pegou minha carteira e foi embora,pt,army,0,none_stated,0,1,licence
+"police did not collect money, they only warned me",en,police,0,none_stated,0,0,none_stated
+"la police n'a pas pris d'argent, ils m'ont seulement averti",fr,police,0,none_stated,0,0,none_stated
+"a polícia não pegou dinheiro, só me advertiu",pt,police,0,none_stated,0,0,none_stated
+they want to detain me and they still want money,en,police,1,cash_or_pos,1,0,none_stated
+ils veulent me détenir et ils veulent aussi de l'argent,fr,police,1,cash_or_pos,1,0,none_stated
+querem me deter e ainda querem dinheiro,pt,police,1,cash_or_pos,1,0,none_stated
+the officer collected my phone and my key,en,police,0,none_stated,0,1,none_stated
+l'agent a pris mon téléphone et ma clé,fr,police,0,none_stated,0,1,none_stated
+o agente pegou meu telefone e minha chave,pt,police,0,none_stated,0,1,none_stated
+VIO asks for a settlement before releasing the vehicle,en,vio,1,cash_or_pos,0,1,none_stated
+le VIO demande un arrangement avant de rendre le véhicule,fr,vio,1,cash_or_pos,0,1,none_stated
+o VIO pede um acerto antes de liberar o veículo,pt,vio,1,cash_or_pos,0,1,none_stated
+FRSC gave me a receipt with a reference number,en,frsc,1,official,0,0,none_stated
+la FRSC m'a donné un reçu avec un numéro de référence,fr,frsc,1,official,0,0,none_stated
+a FRSC me deu um recibo com número de referência,pt,frsc,1,official,0,0,none_stated
+they say my tint is too dark and want to collect money,en,police,1,cash_or_pos,0,0,other_offence
+ils disent que mes vitres sont trop teintées et veulent de l'argent,fr,police,1,cash_or_pos,0,0,other_offence
+dizem que meu insulfilm é muito escuro e querem dinheiro,pt,police,1,cash_or_pos,0,0,other_offence
+FRSC booked me for the seatbelt,en,frsc,0,official,0,0,other_offence
+la FRSC m'a verbalisé pour la ceinture,fr,frsc,0,official,0,0,other_offence
+a FRSC me autuou pelo cinto,pt,frsc,0,official,0,0,other_offence
+they say my plate number is not correct,en,vio,0,none_stated,0,1,other_offence
+ils disent que ma plaque n'est pas correcte,fr,vio,0,none_stated,0,1,other_offence
+dizem que minha placa não está correta,pt,vio,0,none_stated,0,1,other_offence
+police say my exhaust is noisy and I should settle,en,police,1,cash_or_pos,0,0,other_offence
+la police dit que mon pot d'échappement fait du bruit et veut un arrangement,fr,police,1,cash_or_pos,0,0,other_offence
+a polícia diz que meu escapamento faz barulho e quer um acerto,pt,police,1,cash_or_pos,0,0,other_offence
+they stopped me saying I used my phone while driving,en,frsc,1,official,0,0,other_offence
+ils m'ont arrêté disant que j'utilisais mon téléphone en conduisant,fr,frsc,1,official,0,0,other_offence
+me pararam dizendo que eu usei o celular dirigindo,pt,frsc,1,official,0,0,other_offence
+the officer says my mirror is broken and wants 5k,en,police,1,cash_or_pos,0,0,other_offence
+l'agent dit que mon rétroviseur est cassé et veut 5000,fr,police,1,cash_or_pos,0,0,other_offence
+o agente diz que meu retrovisor está quebrado e quer 5 mil,pt,police,1,cash_or_pos,0,0,other_offence
+they say I crossed a red light,en,frsc,1,official,0,0,other_offence
+ils disent que j'ai grillé un feu rouge,fr,frsc,1,official,0,0,other_offence
+dizem que eu furei o sinal vermelho,pt,frsc,1,official,0,0,other_offence
+VIO says my tyres have expired,en,vio,1,cash_or_pos,0,1,other_offence
+le VIO dit que mes pneus sont périmés,fr,vio,1,cash_or_pos,0,1,other_offence
+o VIO diz que meus pneus estão vencidos,pt,vio,1,cash_or_pos,0,1,other_offence
+they asked for my driver's licence and I do not have one,en,police,0,none_stated,0,0,licence
+ils ont demandé mon permis et je n'en ai pas,fr,police,0,none_stated,0,0,licence
+pediram minha carteira de motorista e eu não tenho,pt,police,0,none_stated,0,0,licence
+the officer says my licence has expired and I should pay,en,police,1,cash_or_pos,0,1,licence
+l'agent dit que mon permis est périmé et que je dois payer,fr,police,1,cash_or_pos,0,1,licence
+o agente diz que minha carteira venceu e que eu tenho que pagar,pt,police,1,cash_or_pos,0,1,licence
+FRSC stopped me saying my licence is not valid,en,frsc,1,official,0,0,licence
+la FRSC m'a arrêté disant que mon permis n'est pas valable,fr,frsc,1,official,0,0,licence
+a FRSC me parou dizendo que minha carteira não é válida,pt,frsc,1,official,0,0,licence
+they say I am driving without a licence,en,police,0,none_stated,1,0,licence
+ils disent que je conduis sans permis,fr,police,0,none_stated,1,0,licence
+dizem que estou dirigindo sem carteira,pt,police,0,none_stated,1,0,licence
+police asked for the vehicle particulars,en,police,0,none_stated,0,0,particulars
+la police a demandé les papiers du véhicule,fr,police,0,none_stated,0,0,particulars
+a polícia pediu os documentos do veículo,pt,police,0,none_stated,0,0,particulars
+they say my insurance paper has expired,en,vio,1,cash_or_pos,0,1,particulars
+ils disent que mon assurance est périmée,fr,vio,1,cash_or_pos,0,1,particulars
+dizem que meu seguro está vencido,pt,vio,1,cash_or_pos,0,1,particulars
+the officer is checking my registration papers,en,police,0,none_stated,0,0,particulars
+l'agent vérifie mes papiers d'immatriculation,fr,police,0,none_stated,0,0,particulars
+o agente está conferindo meus documentos de registro,pt,police,0,none_stated,0,0,particulars
+they searched my bag and let me go,en,police,0,none_stated,0,0,search_only
+ils ont fouillé mon sac et m'ont laissé partir,fr,police,0,none_stated,0,0,search_only
+revistaram minha bolsa e me deixaram ir,pt,police,0,none_stated,0,0,search_only
+police just want to check my boot,en,police,0,none_stated,0,0,search_only
+la police veut juste vérifier mon coffre,fr,police,0,none_stated,0,0,search_only
+a polícia só quer conferir meu porta-malas,pt,police,0,none_stated,0,0,search_only
+they searched my person at the checkpoint,en,police,0,none_stated,0,0,search_only
+ils m'ont fouillé au barrage,fr,police,0,none_stated,0,0,search_only
+me revistaram na barreira,pt,police,0,none_stated,0,0,search_only
+"the officer wants to look inside my car, no offence",en,police,0,none_stated,0,0,search_only
+"l'agent veut regarder dans ma voiture, sans infraction",fr,police,0,none_stated,0,0,search_only
+"o agente quer olhar dentro do meu carro, sem infração",pt,police,0,none_stated,0,0,search_only
+they stopped me but did not mention any offence,en,unclear,0,none_stated,0,0,none_stated
+ils m'ont arrêté sans mentionner d'infraction,fr,unclear,0,none_stated,0,0,none_stated
+me pararam mas não falaram de nenhuma infração,pt,unclear,0,none_stated,0,0,none_stated

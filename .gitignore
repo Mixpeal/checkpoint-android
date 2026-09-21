@@ -1,0 +1,30 @@
+# Gradle and Android Studio
+build/
+.gradle/
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Machine specific. local.properties holds an SDK path that is not yours.
+local.properties
+
+# Build output. The APK is produced by ./gradlew, not stored.
+*.apk
+*.aab
+
+# Signing material never belongs in a repository.
+*.keystore
+*.jks
+
+# The encoder is 123 MB. tools/build_model.py rebuilds it byte for byte from the
+# published e5-small weights, so it does not belong in git history.
+build-assets/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+.DS_Store

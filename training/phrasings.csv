@@ -1,0 +1,478 @@
+claim_id,lang,text
+stop_search_public,en,can police stop and search me here on the road
+stop_search_public,en,is it legal for them to search me in public
+stop_search_public,en,they stopped me at the junction and want to search
+stop_search_public,en,officer says he has a right to search me on the street
+needs_reasonable_suspicion,en,do they need a reason before searching my car
+needs_reasonable_suspicion,en,he is searching me without saying why
+needs_reasonable_suspicion,en,can they search anybody they like at the checkpoint
+needs_reasonable_suspicion,en,must there be suspicion before they search my vehicle
+search_vehicle_boot,en,they want to open my boot
+search_vehicle_boot,en,can they search inside my car
+search_vehicle_boot,en,officer says I should open the trunk
+search_vehicle_boot,en,they are going through my bag in the car
+uniform_or_id_required,en,he is in plain clothes can he search me
+uniform_or_id_required,en,the officer has no uniform and no ID
+uniform_or_id_required,en,must a policeman be in uniform to stop me
+uniform_or_id_required,en,he refused to show any identity card
+explanation_can_end_search,en,I explained myself but they still want to search
+explanation_can_end_search,en,can my explanation stop the search
+explanation_can_end_search,en,does answering their question make a difference
+explanation_can_end_search,en,they asked me questions then searched anyway
+public_search_outer_only,en,how far can they search me at the roadside
+public_search_outer_only,en,can they pat me down completely in public
+public_search_outer_only,en,he is going into my pockets on the street
+public_search_outer_only,en,what level of search is allowed in public
+same_sex_private_search,en,a male officer wants to search me and I am a woman
+same_sex_private_search,en,can a man search a female at a checkpoint
+same_sex_private_search,en,they want a thorough search in front of everyone
+same_sex_private_search,en,must a female officer search a woman
+force_last_resort,en,they are using force on me
+force_last_resort,en,can they search me by force if I refuse
+force_last_resort,en,he grabbed me when I said no
+force_last_resort,en,are they allowed to force a search
+reasonable_time_only,en,they have kept me here two hours for a search
+reasonable_time_only,en,how long can they hold me at a checkpoint
+reasonable_time_only,en,is there a time limit on a search stop
+reasonable_time_only,en,they are delaying me for no reason
+undress_in_public,en,they told me to remove my shirt at the roadside
+undress_in_public,en,can police make me undress during a search
+undress_in_public,en,they want me to strip in front of everybody
+undress_in_public,en,is it allowed to make me take off my clothes in public
+search_recorded,en,should they write down that they searched me
+search_recorded,en,is there supposed to be a record of the search
+search_recorded,en,they searched me but wrote nothing
+search_recorded,en,must a search be recorded in writing
+inventory_for_seized,en,they took my things is there paperwork
+inventory_for_seized,en,should I get a list of what they collected
+inventory_for_seized,en,he seized my property without any receipt
+inventory_for_seized,en,must they record what they take from me
+property_back_if_no_charge,en,they kept my property and never charged me
+property_back_if_no_charge,en,do I get my things back if there is no case
+property_back_if_no_charge,en,no charge was filed but they still have my phone
+property_back_if_no_charge,en,must they return my property if released
+give_name_and_address,en,do I have to tell them my name
+give_name_and_address,en,can I refuse to give my address
+give_name_and_address,en,they are demanding my name and where I live
+give_name_and_address,en,what if I do not want to identify myself
+unlock_my_phone,en,they are asking me to unlock my phone
+unlock_my_phone,en,can police search my phone at a stop
+unlock_my_phone,en,officer wants my phone password
+unlock_my_phone,en,do I have to give them my phone to look through
+search_my_house,en,they say the same power lets them enter my house
+search_my_house,en,can they search my home during a stop and search
+search_my_house,en,officer wants to follow me home and search
+search_my_house,en,does stop and search cover a private residence
+bail_within_24_hours,en,they have kept me since yesterday without court
+bail_within_24_hours,en,how long can police hold me before court
+bail_within_24_hours,en,they said they will keep me till Monday
+bail_within_24_hours,en,is there a time limit before they must let me go
+bail_is_free,en,they are asking me to pay for bail
+bail_is_free,en,I thought bail is free why am I paying
+bail_is_free,en,officer says bail costs money
+bail_is_free,en,is it legal to charge me for bail
+before_search_disclosure,en,he will not tell me his name
+before_search_disclosure,en,I asked which station he is from and he refused
+before_search_disclosure,en,must he say who he is before searching me
+before_search_disclosure,en,he will not say what he is looking for
+before_search_disclosure,en,they started searching without explaining anything
+before_search_disclosure,en,what are they obliged to tell me first
+before_search_disclosure,en,"dem just start search, no explanation"
+before_search_disclosure,en,officer suppose talk him name and station first
+stop_search_public,en,are roadside checkpoints legal at all
+stop_search_public,en,can they stop me on a public highway
+stop_search_public,en,checkpoint dey legal at all
+needs_reasonable_suspicion,en,what counts as a reason to search someone
+needs_reasonable_suspicion,en,he has no grounds but insists on searching
+search_vehicle_boot,en,must I open my boot for them
+search_vehicle_boot,en,they want to look inside my luggage
+search_vehicle_boot,en,dem wan check inside my load
+public_search_outer_only,en,can he put his hands inside my pockets
+public_search_outer_only,en,is a full body search allowed on the road
+public_search_outer_only,en,full body search dey allowed for road
+same_sex_private_search,en,I am a woman and there is no female officer here
+same_sex_private_search,en,where should a thorough search happen
+inventory_for_seized,en,he took my documents and gave me nothing
+inventory_for_seized,en,what paperwork covers property they seize
+bail_within_24_hours,en,it is past 24 hours and no court
+bail_within_24_hours,en,they are holding me overnight
+bail_within_24_hours,en,"e don pass 24 hours, no court"
+bail_within_24_hours,en,dem dey hold me overnight
+search_my_house,en,can a roadside stop turn into a house search
+search_my_house,en,they want to drive me to my house and search it
+search_my_house,en,dem wan carry me go my house go search
+licence_fine_is_10k,en,how much is the fine for driving without licence
+licence_fine_is_10k,en,what is the official fine for no licence
+licence_fine_is_10k,en,they say the fine is 50k is that right
+licence_fine_is_10k,en,what does the law say I should pay for no licence
+fine_requires_conviction,en,can they collect the fine here on the road
+fine_requires_conviction,en,must I pay them cash now
+fine_requires_conviction,en,they want me to pay the fine at the checkpoint
+fine_requires_conviction,en,do I pay a traffic fine to the officer directly
+learner_permit_status,en,I have a learner's permit not a full licence
+learner_permit_status,en,does a learner permit count as a licence
+learner_permit_status,en,"I am still learning, I have my permit"
+learner_permit_status,en,they say a learner permit is not enough
+particulars_photocopy_ok,en,they say photocopy is not acceptable
+particulars_photocopy_ok,en,officer insists on seeing the original papers
+particulars_photocopy_ok,en,must I carry the original vehicle documents
+particulars_photocopy_ok,en,they rejected my photocopy of the particulars
+particulars_fine_is_3k,en,what is the fine for incomplete particulars
+particulars_fine_is_3k,en,how much for not having vehicle papers
+particulars_fine_is_3k,en,they say particulars offence costs 20k
+particulars_fine_is_3k,en,what does the law charge for missing particulars
+licence_original_24h,en,I only have a photocopy of my licence
+licence_original_24h,en,they want the original driver's licence right now
+licence_original_24h,en,can I produce my licence later
+licence_original_24h,en,my original licence is at home
+stop_search_public,fr,la police peut-elle m'arrêter et me fouiller dans la rue
+stop_search_public,fr,ils m'ont arrêté sur la route publique pour me fouiller
+stop_search_public,fr,est-ce légal de me fouiller dans un lieu public
+stop_search_public,fr,un policier peut me fouiller n'importe où dehors
+stop_search_public,fr,ils m'ont fait descendre de la voiture au carrefour
+stop_search_public,pt,a polícia pode me parar e revistar na via pública
+stop_search_public,pt,eles me pararam na estrada para me revistar
+stop_search_public,pt,é legal me revistarem num lugar público
+stop_search_public,pt,um policial pode me revistar em qualquer lugar na rua
+stop_search_public,pt,mandaram eu descer do carro no cruzamento
+needs_reasonable_suspicion,fr,ils doivent avoir une raison pour fouiller ma voiture
+needs_reasonable_suspicion,fr,il me fouille sans aucun motif
+needs_reasonable_suspicion,fr,faut-il un soupçon avant de me fouiller
+needs_reasonable_suspicion,fr,ils fouillent tout le monde sans raison
+needs_reasonable_suspicion,fr,quel motif doit-il avoir avant de fouiller mon véhicule
+needs_reasonable_suspicion,pt,eles precisam de um motivo para revistar meu carro
+needs_reasonable_suspicion,pt,ele está me revistando sem motivo nenhum
+needs_reasonable_suspicion,pt,precisa de suspeita para me revistarem
+needs_reasonable_suspicion,pt,estão revistando todo mundo sem razão
+needs_reasonable_suspicion,pt,que motivo ele precisa ter antes de revistar meu veículo
+search_vehicle_boot,fr,ils veulent ouvrir mon coffre
+search_vehicle_boot,fr,est-ce qu'il peut fouiller mon sac
+search_vehicle_boot,fr,il demande à regarder dans le coffre de la voiture
+search_vehicle_boot,fr,ils fouillent l'intérieur de mon véhicule
+search_vehicle_boot,fr,peuvent-ils vérifier mes bagages
+search_vehicle_boot,pt,eles querem abrir o porta-malas
+search_vehicle_boot,pt,ele pode revistar minha bolsa
+search_vehicle_boot,pt,pediu para olhar dentro do porta-malas do carro
+search_vehicle_boot,pt,estão revistando o interior do meu veículo
+search_vehicle_boot,pt,podem verificar a minha bagagem
+uniform_or_id_required,fr,"il est en civil, peut-il me fouiller"
+uniform_or_id_required,fr,l'agent n'a ni uniforme ni badge
+uniform_or_id_required,fr,il refuse de montrer sa carte de police
+uniform_or_id_required,fr,un policier sans uniforme peut-il m'arrêter
+uniform_or_id_required,fr,comment savoir s'il est vraiment policier
+uniform_or_id_required,pt,"ele está à paisana, pode me revistar"
+uniform_or_id_required,pt,o agente não está de uniforme nem com crachá
+uniform_or_id_required,pt,ele se recusa a mostrar a identificação policial
+uniform_or_id_required,pt,um policial sem uniforme pode me parar
+uniform_or_id_required,pt,como sei se ele é mesmo policial
+explanation_can_end_search,fr,si j'explique ma situation vont-ils arrêter la fouille
+explanation_can_end_search,fr,est-ce que m'expliquer change quelque chose
+explanation_can_end_search,fr,j'ai tout expliqué mais il fouille quand même
+explanation_can_end_search,fr,doivent-ils continuer la fouille après mes explications
+explanation_can_end_search,fr,puis-je éviter la fouille en expliquant
+explanation_can_end_search,pt,se eu explicar a situação eles param a revista
+explanation_can_end_search,pt,explicar muda alguma coisa
+explanation_can_end_search,pt,eu expliquei tudo mas ele revistou mesmo assim
+explanation_can_end_search,pt,eles têm que continuar a revista depois que eu expliquei
+explanation_can_end_search,pt,posso evitar a revista explicando
+public_search_outer_only,fr,jusqu'où peut-il me fouiller au bord de la route
+public_search_outer_only,fr,peut-il me faire enlever ma veste ici
+public_search_outer_only,fr,que peut-il toucher pendant une fouille dans la rue
+public_search_outer_only,fr,la fouille en public a-t-elle des limites
+public_search_outer_only,fr,il me fouille en profondeur devant tout le monde
+public_search_outer_only,pt,até onde ele pode me revistar na beira da estrada
+public_search_outer_only,pt,ele pode me mandar tirar o casaco aqui
+public_search_outer_only,pt,o que ele pode tocar durante uma revista na rua
+public_search_outer_only,pt,a revista em público tem limites
+public_search_outer_only,pt,ele está me revistando a fundo na frente de todos
+same_sex_private_search,fr,un homme veut me fouiller alors que je suis une femme
+same_sex_private_search,fr,la fouille doit-elle être faite par un agent du même sexe
+same_sex_private_search,fr,il veut une fouille complète et c'est un homme
+same_sex_private_search,fr,ai-je droit à une femme policière pour la fouille
+same_sex_private_search,fr,qui doit effectuer une fouille approfondie
+same_sex_private_search,pt,um homem quer me revistar e eu sou mulher
+same_sex_private_search,pt,a revista tem que ser feita por agente do mesmo sexo
+same_sex_private_search,pt,ele quer uma revista completa e é homem
+same_sex_private_search,pt,tenho direito a uma policial mulher para a revista
+same_sex_private_search,pt,quem deve fazer uma revista minuciosa
+force_last_resort,fr,ils peuvent employer la force si je refuse
+force_last_resort,fr,il me pousse parce que je n'accepte pas
+force_last_resort,fr,que se passe-t-il si je ne coopère pas
+force_last_resort,fr,ont-ils le droit de me forcer
+force_last_resort,fr,il menace d'utiliser la force contre moi
+force_last_resort,pt,eles podem usar a força se eu recusar
+force_last_resort,pt,ele está me empurrando porque não aceitei
+force_last_resort,pt,o que acontece se eu não cooperar
+force_last_resort,pt,eles têm o direito de me forçar
+force_last_resort,pt,ele ameaçou usar a força contra mim
+reasonable_time_only,fr,ça fait des heures qu'ils me retiennent pour cette fouille
+reasonable_time_only,fr,combien de temps peut durer une fouille
+reasonable_time_only,fr,il me garde ici depuis très longtemps
+reasonable_time_only,fr,y a-t-il une limite de temps pour me retenir
+reasonable_time_only,fr,la fouille dure beaucoup trop longtemps
+reasonable_time_only,pt,faz horas que estão me segurando para essa revista
+reasonable_time_only,pt,quanto tempo pode durar uma revista
+reasonable_time_only,pt,ele está me mantendo aqui há muito tempo
+reasonable_time_only,pt,existe limite de tempo para me reterem
+reasonable_time_only,pt,a revista está demorando demais
+undress_in_public,fr,il veut que j'enlève mes vêtements ici
+undress_in_public,fr,peut-il me déshabiller au bord de la route
+undress_in_public,fr,il m'a demandé de retirer ma chemise devant tout le monde
+undress_in_public,fr,une fouille à nu en public est-elle permise
+undress_in_public,fr,doit-on se déshabiller au contrôle routier
+undress_in_public,pt,ele quer que eu tire minha roupa aqui
+undress_in_public,pt,ele pode me despir na beira da estrada
+undress_in_public,pt,pediu para eu tirar a camisa na frente de todos
+undress_in_public,pt,revista com a pessoa despida em público é permitida
+undress_in_public,pt,tem que tirar a roupa na blitz
+search_recorded,fr,la fouille doit-elle être consignée par écrit
+search_recorded,fr,existe-t-il un procès verbal de la fouille
+search_recorded,fr,doit-il noter cette fouille quelque part
+search_recorded,fr,puis-je obtenir un document sur cette fouille
+search_recorded,fr,rien n'a été écrit après la fouille
+search_recorded,pt,a revista tem que ser registrada por escrito
+search_recorded,pt,existe um registro dessa revista
+search_recorded,pt,ele tem que anotar essa revista em algum lugar
+search_recorded,pt,posso conseguir um documento sobre essa revista
+search_recorded,pt,nada foi escrito depois da revista
+inventory_for_seized,fr,ils ont pris mes affaires sans aucun papier
+inventory_for_seized,fr,dois-je recevoir une liste de ce qu'ils ont saisi
+inventory_for_seized,fr,il a gardé mon téléphone sans rien me donner
+inventory_for_seized,fr,y a-t-il un inventaire des objets saisis
+inventory_for_seized,fr,ils ont confisqué mes documents sans reçu
+inventory_for_seized,pt,pegaram minhas coisas sem nenhum papel
+inventory_for_seized,pt,devo receber uma lista do que apreenderam
+inventory_for_seized,pt,ele ficou com meu telefone e não me deu nada
+inventory_for_seized,pt,existe um inventário dos objetos apreendidos
+inventory_for_seized,pt,confiscaram meus documentos sem recibo
+property_back_if_no_charge,fr,ils gardent mes biens sans m'inculper
+property_back_if_no_charge,fr,quand dois-je récupérer mes affaires
+property_back_if_no_charge,fr,aucune accusation mais ils ont toujours mon téléphone
+property_back_if_no_charge,fr,ils refusent de rendre ce qu'ils ont pris
+property_back_if_no_charge,fr,comment récupérer mes documents saisis
+property_back_if_no_charge,pt,estão com meus bens e não me acusaram de nada
+property_back_if_no_charge,pt,quando devo receber minhas coisas de volta
+property_back_if_no_charge,pt,nenhuma acusação mas continuam com meu telefone
+property_back_if_no_charge,pt,eles se recusam a devolver o que pegaram
+property_back_if_no_charge,pt,como recupero os documentos apreendidos
+give_name_and_address,fr,suis-je obligé de donner mon nom
+give_name_and_address,fr,il demande mon nom et mon adresse
+give_name_and_address,fr,dois-je décliner mon identité
+give_name_and_address,fr,puis-je refuser de donner mes coordonnées
+give_name_and_address,fr,il veut savoir où j'habite
+give_name_and_address,pt,sou obrigado a dizer meu nome
+give_name_and_address,pt,ele está pedindo meu nome e endereço
+give_name_and_address,pt,tenho que me identificar para ele
+give_name_and_address,pt,posso recusar dar meus dados
+give_name_and_address,pt,ele quer saber onde eu moro
+unlock_my_phone,fr,il exige que je déverrouille mon téléphone
+unlock_my_phone,fr,peut-il fouiller mon portable
+unlock_my_phone,fr,il veut le code de mon téléphone
+unlock_my_phone,fr,doit-on donner son mot de passe à la police
+unlock_my_phone,fr,il regarde mes messages sur mon téléphone
+unlock_my_phone,pt,ele exige que eu desbloqueie meu celular
+unlock_my_phone,pt,ele pode vasculhar meu telefone
+unlock_my_phone,pt,ele quer a senha do meu celular
+unlock_my_phone,pt,tem que dar a senha para a polícia
+unlock_my_phone,pt,ele está olhando minhas mensagens no celular
+search_my_house,fr,peuvent-ils fouiller ma maison avec ce pouvoir
+search_my_house,fr,ils veulent venir chez moi après le contrôle
+search_my_house,fr,ce pouvoir s'applique-t-il à mon domicile
+search_my_house,fr,ma résidence est-elle concernée par cette fouille
+search_my_house,fr,ils parlent d'aller fouiller chez moi
+search_my_house,pt,eles podem revistar minha casa com esse poder
+search_my_house,pt,querem ir na minha casa depois da abordagem
+search_my_house,pt,esse poder vale para minha residência
+search_my_house,pt,minha casa está incluída nessa revista
+search_my_house,pt,estão falando em ir revistar minha casa
+bail_within_24_hours,fr,ça fait plus de 24 heures sans voir un juge
+bail_within_24_hours,fr,doivent-ils me libérer après une journée
+bail_within_24_hours,fr,combien de temps peuvent-ils me garder avant le tribunal
+bail_within_24_hours,fr,je suis en cellule depuis hier sans être présenté
+bail_within_24_hours,fr,ils me gardent sans me présenter au tribunal
+bail_within_24_hours,pt,já passou de 24 horas sem ver um juiz
+bail_within_24_hours,pt,eles têm que me soltar depois de um dia
+bail_within_24_hours,pt,quanto tempo podem me prender antes do tribunal
+bail_within_24_hours,pt,estou na cela desde ontem sem ser apresentado
+bail_within_24_hours,pt,estão me segurando sem me levar ao tribunal
+bail_is_free,fr,ils demandent de l'argent pour la caution
+bail_is_free,fr,la mise en liberté est-elle gratuite
+bail_is_free,fr,faut-il payer pour sortir du poste
+bail_is_free,fr,combien coûte la liberté provisoire
+bail_is_free,fr,ils veulent 20000 pour me libérer
+bail_is_free,pt,estão pedindo dinheiro pela fiança
+bail_is_free,pt,a soltura é gratuita
+bail_is_free,pt,tem que pagar para sair da delegacia
+bail_is_free,pt,quanto custa a liberdade provisória
+bail_is_free,pt,querem 20 mil para me soltar
+before_search_disclosure,fr,que doit-il me dire avant de me fouiller
+before_search_disclosure,fr,il ne m'a pas donné son nom avant la fouille
+before_search_disclosure,fr,doit-il expliquer pourquoi il me fouille
+before_search_disclosure,fr,quelles informations doit-il donner avant de fouiller
+before_search_disclosure,fr,il a commencé la fouille sans rien expliquer
+before_search_disclosure,pt,o que ele tem que me dizer antes de me revistar
+before_search_disclosure,pt,ele não disse o nome dele antes da revista
+before_search_disclosure,pt,ele precisa explicar por que está me revistando
+before_search_disclosure,pt,que informação ele deve dar antes de revistar
+before_search_disclosure,pt,começou a revista sem explicar nada
+licence_fine_is_10k,fr,quelle est l'amende pour conduire sans permis
+licence_fine_is_10k,fr,combien coûte vraiment l'absence de permis
+licence_fine_is_10k,fr,il dit que c'est 50000 pour le permis
+licence_fine_is_10k,fr,quel est le montant officiel pour conduire sans permis
+licence_fine_is_10k,fr,quelle somme la loi prévoit pour le permis
+licence_fine_is_10k,pt,qual é a multa por dirigir sem carteira
+licence_fine_is_10k,pt,quanto custa de verdade não ter habilitação
+licence_fine_is_10k,pt,ele disse que é 50 mil pela carteira
+licence_fine_is_10k,pt,qual o valor oficial por dirigir sem carteira
+licence_fine_is_10k,pt,que quantia a lei prevê para a carteira
+fine_requires_conviction,fr,puis-je payer l'amende directement sur la route
+fine_requires_conviction,fr,il veut l'argent tout de suite au contrôle
+fine_requires_conviction,fr,faut-il passer par un tribunal avant de payer une amende
+fine_requires_conviction,fr,peut-il encaisser l'amende lui-même
+fine_requires_conviction,fr,il exige le paiement sur place
+fine_requires_conviction,pt,posso pagar a multa ali mesmo na estrada
+fine_requires_conviction,pt,ele quer o dinheiro na hora na abordagem
+fine_requires_conviction,pt,precisa de tribunal antes de pagar multa
+fine_requires_conviction,pt,ele pode receber a multa ele mesmo
+fine_requires_conviction,pt,ele exige o pagamento na hora
+learner_permit_status,fr,j'ai seulement un permis d'apprenti conducteur
+learner_permit_status,fr,mon permis provisoire suffit-il
+learner_permit_status,fr,je n'ai que le permis d'apprentissage
+learner_permit_status,fr,est-ce que le permis provisoire est valable
+learner_permit_status,fr,il dit que mon permis d'apprenti ne compte pas
+learner_permit_status,pt,eu tenho só a permissão para aprendiz
+learner_permit_status,pt,minha permissão provisória serve
+learner_permit_status,pt,só tenho a licença de aprendizagem
+learner_permit_status,pt,a permissão provisória vale como carteira
+learner_permit_status,pt,ele disse que minha permissão de aprendiz não conta
+particulars_photocopy_ok,fr,il refuse la photocopie de mes papiers
+particulars_photocopy_ok,fr,dois-je avoir les originaux des documents du véhicule
+particulars_photocopy_ok,fr,il dit que la copie ne vaut rien
+particulars_photocopy_ok,fr,une photocopie des papiers suffit-elle
+particulars_photocopy_ok,fr,il veut absolument les originaux
+particulars_photocopy_ok,pt,ele recusa a fotocópia dos meus documentos
+particulars_photocopy_ok,pt,preciso ter os originais dos documentos do veículo
+particulars_photocopy_ok,pt,ele diz que a cópia não vale nada
+particulars_photocopy_ok,pt,uma fotocópia dos documentos serve
+particulars_photocopy_ok,pt,ele quer os originais de qualquer jeito
+particulars_fine_is_3k,fr,quelle amende pour des papiers de véhicule manquants
+particulars_fine_is_3k,fr,combien pour ne pas avoir les documents de la voiture
+particulars_fine_is_3k,fr,il demande 15000 pour les papiers
+particulars_fine_is_3k,fr,quel est le montant légal pour documents incomplets
+particulars_fine_is_3k,fr,quelle somme pour les papiers du véhicule
+particulars_fine_is_3k,pt,qual a multa por não ter os documentos do veículo
+particulars_fine_is_3k,pt,quanto é por não ter os papéis do carro
+particulars_fine_is_3k,pt,ele está pedindo 15 mil pelos documentos
+particulars_fine_is_3k,pt,qual o valor legal por documentação incompleta
+particulars_fine_is_3k,pt,que quantia pelos documentos do veículo
+licence_original_24h,fr,dois-je porter l'original de mon permis sur moi
+licence_original_24h,fr,combien de temps ai-je pour présenter l'original
+licence_original_24h,fr,il dit que je dois avoir le permis original
+licence_original_24h,fr,puis-je apporter le permis plus tard
+licence_original_24h,fr,j'ai laissé mon permis à la maison
+licence_original_24h,pt,tenho que andar com a carteira original comigo
+licence_original_24h,pt,quanto tempo tenho para apresentar o original
+licence_original_24h,pt,ele diz que preciso ter a carteira original
+licence_original_24h,pt,posso levar a carteira depois
+licence_original_24h,pt,deixei minha carteira em casa
+uniform_or_id_required,en,the man searching me has no uniform on
+uniform_or_id_required,en,he says he is police but shows no identification
+uniform_or_id_required,fr,l'homme qui me fouille ne porte pas d'uniforme
+uniform_or_id_required,fr,il dit être policier mais ne montre aucune identification
+uniform_or_id_required,pt,o homem que está me revistando não está de uniforme
+uniform_or_id_required,pt,ele diz que é policial mas não mostra identificação
+undress_in_public,en,he is telling me to strip at the checkpoint
+undress_in_public,en,must I take off clothing for them to search me
+undress_in_public,fr,il me dit de me déshabiller au barrage
+undress_in_public,fr,dois-je retirer des vêtements pour qu'ils me fouillent
+undress_in_public,pt,ele está mandando eu tirar a roupa na barreira
+undress_in_public,pt,tenho que tirar roupa para eles me revistarem
+property_back_if_no_charge,en,no charge was filed but my things are still with them
+property_back_if_no_charge,en,they released me but kept my phone
+property_back_if_no_charge,fr,aucune poursuite n'a été engagée mais ils gardent mes affaires
+property_back_if_no_charge,fr,ils m'ont libéré mais ont gardé mon téléphone
+property_back_if_no_charge,pt,não houve acusação mas minhas coisas continuam com eles
+property_back_if_no_charge,pt,me soltaram mas ficaram com meu telefone
+public_search_outer_only,en,can he pat me down completely out in the open
+public_search_outer_only,en,is it only my outer clothing he is allowed to check
+public_search_outer_only,fr,peut-il me palper entièrement en pleine rue
+public_search_outer_only,fr,ne peut-il vérifier que mes vêtements de dessus
+public_search_outer_only,pt,ele pode me apalpar por completo em plena rua
+public_search_outer_only,pt,ele só pode verificar minhas roupas de fora
+explanation_can_end_search,en,will they drop the search if I answer their question
+explanation_can_end_search,en,does explaining myself put an end to this
+explanation_can_end_search,fr,abandonneront-ils la fouille si je réponds à leur question
+explanation_can_end_search,fr,est-ce que m'expliquer met fin à tout ceci
+explanation_can_end_search,pt,eles desistem da revista se eu responder à pergunta
+explanation_can_end_search,pt,me explicar encerra isso
+force_last_resort,en,he says he will search me by force
+force_last_resort,en,what happens if I simply refuse to be searched
+force_last_resort,fr,il dit qu'il me fouillera de force
+force_last_resort,fr,que se passe-t-il si je refuse simplement d'être fouillé
+force_last_resort,pt,ele diz que vai me revistar à força
+force_last_resort,pt,o que acontece se eu simplesmente recusar a revista
+reasonable_time_only,en,how long is too long to be held at a checkpoint
+reasonable_time_only,en,they have had me here for two hours already
+reasonable_time_only,fr,combien de temps est-ce trop long à un barrage
+reasonable_time_only,fr,ils me retiennent ici depuis deux heures
+reasonable_time_only,pt,quanto tempo é tempo demais numa barreira
+reasonable_time_only,pt,eles me seguram aqui há duas horas
+search_recorded,en,should there be a written record of this search
+search_recorded,en,he wrote nothing down after searching me
+search_recorded,fr,doit-il exister un écrit sur cette fouille
+search_recorded,fr,il n'a rien écrit après m'avoir fouillé
+search_recorded,pt,deve existir um registro escrito dessa revista
+search_recorded,pt,ele não escreveu nada depois de me revistar
+give_name_and_address,en,can they arrest me for not giving my name
+give_name_and_address,en,he insists on my full name and where I live
+give_name_and_address,fr,peuvent-ils m'arrêter si je ne donne pas mon nom
+give_name_and_address,fr,il insiste pour avoir mon nom complet et mon adresse
+give_name_and_address,pt,eles podem me prender por não dar meu nome
+give_name_and_address,pt,ele insiste no meu nome completo e onde eu moro
+unlock_my_phone,en,is there a law making me open my phone for them
+unlock_my_phone,en,he took my phone and wants the passcode
+unlock_my_phone,fr,existe-t-il une loi m'obligeant à ouvrir mon téléphone
+unlock_my_phone,fr,il a pris mon téléphone et veut le code
+unlock_my_phone,pt,existe lei que me obrigue a abrir meu celular
+unlock_my_phone,pt,ele pegou meu celular e quer a senha
+bail_is_free,en,they say I must pay before they release me from the station
+bail_is_free,en,is there a charge for being released
+bail_is_free,fr,ils disent que je dois payer avant d'être relâché du poste
+bail_is_free,fr,y a-t-il des frais pour être libéré
+bail_is_free,pt,dizem que tenho que pagar antes de me soltarem da delegacia
+bail_is_free,pt,existe cobrança para ser solto
+licence_fine_is_10k,en,he is asking far more than the licence penalty
+licence_fine_is_10k,en,what does the law say the penalty for no licence is
+licence_fine_is_10k,fr,il demande bien plus que la sanction prévue pour le permis
+licence_fine_is_10k,fr,que dit la loi sur la sanction pour absence de permis
+licence_fine_is_10k,pt,ele está pedindo muito mais que a penalidade da carteira
+licence_fine_is_10k,pt,o que a lei diz sobre a penalidade por não ter carteira
+fine_requires_conviction,en,he wants to collect the penalty himself right now
+fine_requires_conviction,en,does a court have to decide before I pay anything
+fine_requires_conviction,fr,il veut encaisser la sanction lui-même tout de suite
+fine_requires_conviction,fr,un tribunal doit-il décider avant que je paie quoi que ce soit
+fine_requires_conviction,pt,ele quer receber a penalidade ele mesmo agora
+fine_requires_conviction,pt,um tribunal tem que decidir antes de eu pagar qualquer coisa
+learner_permit_status,en,he says my learner permit is worthless
+learner_permit_status,fr,un permis d'apprenti compte-t-il comme un permis de conduire
+learner_permit_status,fr,il dit que mon permis d'apprenti ne vaut rien
+learner_permit_status,pt,a permissão de aprendiz conta como carteira
+learner_permit_status,pt,ele diz que minha permissão de aprendiz não vale nada
+particulars_photocopy_ok,en,are copies of the vehicle papers acceptable
+particulars_photocopy_ok,en,he will not accept the copies I am carrying
+particulars_photocopy_ok,fr,les copies des papiers du véhicule sont-elles acceptables
+particulars_photocopy_ok,fr,il refuse d'accepter les copies que je porte
+particulars_photocopy_ok,pt,cópias dos documentos do veículo são aceitas
+particulars_photocopy_ok,pt,ele não aceita as cópias que estou levando
+particulars_fine_is_3k,en,how much does the law set for missing vehicle papers
+particulars_fine_is_3k,en,he wants a large sum over my vehicle papers
+particulars_fine_is_3k,fr,quel montant la loi fixe pour des papiers de véhicule manquants
+particulars_fine_is_3k,fr,il veut une grosse somme à cause de mes papiers de véhicule
+particulars_fine_is_3k,pt,que valor a lei fixa por documentos do veículo faltando
+particulars_fine_is_3k,pt,ele quer uma quantia alta por causa dos documentos do veículo
+licence_original_24h,en,I only have a copy of my licence with me
+licence_original_24h,en,how long do I have to produce the original licence
+licence_original_24h,fr,je n'ai qu'une copie de mon permis sur moi
+licence_original_24h,fr,de combien de temps je dispose pour présenter le permis original
+licence_original_24h,pt,eu só tenho uma cópia da minha carteira comigo
+licence_original_24h,pt,quanto tempo tenho para apresentar a carteira original

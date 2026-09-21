@@ -1,0 +1,234 @@
+{
+  "_README": "Typed questions asked of ONE utterance, independently. The model extracts facts; it never writes prose. Rules below compose those facts, and a rule may only ship if it carries a citation.",
+  "questions": [
+    {
+      "id": "agency",
+      "type": "choice",
+      "prompt": {
+        "en": "Which agency",
+        "fr": "Quelle autorité",
+        "pt": "Qual autoridade"
+      },
+      "options": [
+        "police",
+        "frsc",
+        "vio",
+        "army",
+        "unclear"
+      ],
+      "labels": {
+        "en": [
+          "Police",
+          "FRSC",
+          "VIO",
+          "Army/soldier",
+          "Not stated"
+        ],
+        "fr": [
+          "Police",
+          "FRSC",
+          "VIO",
+          "Militaire",
+          "Non précisé"
+        ],
+        "pt": [
+          "Polícia",
+          "FRSC",
+          "VIO",
+          "Militar",
+          "Não informado"
+        ]
+      },
+      "ask": {
+        "en": "Who stopped you?",
+        "fr": "Qui vous a arrêté ?",
+        "pt": "Quem te parou?"
+      },
+      "essential": true
+    },
+    {
+      "id": "allegation",
+      "type": "choice",
+      "prompt": {
+        "en": "What they say you did",
+        "fr": "Ce qu'ils vous reprochent",
+        "pt": "O que dizem que você fez"
+      },
+      "ask": {
+        "en": "What are they saying you did?",
+        "fr": "Que vous reprochent-ils ?",
+        "pt": "O que estão dizendo que você fez?"
+      },
+      "essential": true,
+      "options": [
+        "licence",
+        "particulars",
+        "other_offence",
+        "search_only",
+        "none_stated"
+      ],
+      "labels": {
+        "en": [
+          "No/invalid driver's licence",
+          "Vehicle particulars",
+          "Another traffic offence",
+          "Nothing, just a search",
+          "They haven't said"
+        ],
+        "fr": [
+          "Permis absent ou non valable",
+          "Papiers du véhicule",
+          "Une autre infraction routière",
+          "Rien, juste une fouille",
+          "Ils ne l'ont pas dit"
+        ],
+        "pt": [
+          "Carteira ausente ou inválida",
+          "Documentos do veículo",
+          "Outra infração de trânsito",
+          "Nada, só uma revista",
+          "Não disseram"
+        ]
+      }
+    },
+    {
+      "id": "money",
+      "type": "noul",
+      "prompt": {
+        "en": "Money being demanded",
+        "fr": "Argent demandé",
+        "pt": "Dinheiro sendo exigido"
+      },
+      "threshold": 0.6,
+      "ask": {
+        "en": "Are they asking you for money?",
+        "fr": "Vous demandent-ils de l'argent ?",
+        "pt": "Estão pedindo dinheiro a você?"
+      }
+    },
+    {
+      "id": "channel",
+      "type": "choice",
+      "prompt": {
+        "en": "Payment channel",
+        "fr": "Mode de paiement",
+        "pt": "Forma de pagamento"
+      },
+      "options": [
+        "cash_or_pos",
+        "official",
+        "none_stated"
+      ],
+      "labels": {
+        "en": [
+          "Cash / POS / personal transfer",
+          "Official channel or receipt",
+          "Not stated"
+        ],
+        "fr": [
+          "Espèces, terminal ou virement personnel",
+          "Canal officiel ou reçu",
+          "Non précisé"
+        ],
+        "pt": [
+          "Dinheiro, maquininha ou transferência pessoal",
+          "Canal oficial ou recibo",
+          "Não informado"
+        ]
+      },
+      "ask": {
+        "en": "How do they want the money?",
+        "fr": "Comment veulent-ils l'argent ?",
+        "pt": "Como querem o dinheiro?"
+      }
+    },
+    {
+      "id": "detention",
+      "type": "noul",
+      "prompt": {
+        "en": "Detention or station threatened",
+        "fr": "Détention ou poste évoqué",
+        "pt": "Detenção ou delegacia mencionada"
+      },
+      "threshold": 0.6,
+      "ask": {
+        "en": "Are they threatening to hold you or take you to a station?",
+        "fr": "Menacent-ils de vous retenir ou de vous emmener au poste ?",
+        "pt": "Estão ameaçando te deter ou te levar para a delegacia?"
+      }
+    },
+    {
+      "id": "document",
+      "type": "noul",
+      "prompt": {
+        "en": "Document or key withheld",
+        "fr": "Document ou clé retenu",
+        "pt": "Documento ou chave retidos"
+      },
+      "threshold": 0.6,
+      "ask": {
+        "en": "Are they holding your documents, keys or phone?",
+        "fr": "Retiennent-ils vos papiers, vos clés ou votre téléphone ?",
+        "pt": "Estão com seus documentos, chaves ou telefone?"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "cash_leaves_no_record",
+      "when": {
+        "money": true,
+        "channel": "cash_or_pos"
+      },
+      "severity": "high",
+      "text": {
+        "en": "Money is being demanded and the channel named leaves no record. Lawful money movements in this Act are recorded ones. A recognisance is entered into and written down, and property taken is inventoried and signed with a copy given to you. A payment that produces no paperwork matches neither.",
+        "fr": "De l'argent est demandé et le canal indiqué ne laisse aucune trace. Les mouvements d'argent licites prévus par cette loi sont des mouvements enregistrés. Une reconnaissance est souscrite et consignée par écrit, et les biens saisis font l'objet d'un inventaire signé dont une copie vous est remise. Un paiement qui ne produit aucun document ne correspond ni à l'un ni à l'autre.",
+        "pt": "Está sendo exigido dinheiro e o canal indicado não deixa registro. Os movimentos de dinheiro lícitos nesta lei são movimentos registrados. Um termo de compromisso é firmado e escrito, e os bens apreendidos são inventariados e assinados, com uma cópia entregue a você. Um pagamento que não produz documento nenhum não corresponde a nenhum dos dois."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.62(2) recognisance; s.46(1)-(3) inventory",
+        "captured": "2026-09-19"
+      }
+    },
+    {
+      "id": "property_held_needs_paper",
+      "when": {
+        "document": true
+      },
+      "severity": "medium",
+      "text": {
+        "en": "Something of yours is being held. Where property is taken, an inventory must be recorded immediately, signed, and a copy given to you or someone you name.",
+        "fr": "Un de vos biens est retenu. Lorsqu'un bien est saisi, un inventaire doit être dressé immédiatement, signé, et une copie remise à vous ou à une personne que vous désignez.",
+        "pt": "Algo seu está retido. Quando um bem é apreendido, um inventário deve ser registrado imediatamente, assinado, e uma cópia entregue a você ou a alguém que você indicar."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.46(1)-(3)",
+        "captured": "2026-09-19"
+      }
+    },
+    {
+      "id": "detention_is_time_limited",
+      "when": {
+        "detention": true
+      },
+      "severity": "medium",
+      "text": {
+        "en": "Being held is time-limited. Detention for a search must be within a reasonable time, and for a non-capital offence release on bail follows where it is not practicable to reach a court within 24 hours of arrest.",
+        "fr": "La rétention est limitée dans le temps. La détention aux fins de fouille doit rester dans un délai raisonnable, et pour une infraction non capitale la mise en liberté sous caution intervient lorsqu'il n'est pas possible de vous présenter devant un tribunal dans les 24 heures suivant l'arrestation.",
+        "pt": "A retenção tem prazo. A detenção para revista deve ocorrer dentro de um prazo razoável, e para infração não capital a soltura sob fiança ocorre quando não for possível levar você a um tribunal em 24 horas da prisão."
+      },
+      "citation": {
+        "instrument": "Police Act 2020",
+        "section": "s.51(4); s.62(1)",
+        "captured": "2026-09-19"
+      }
+    }
+  ],
+  "_UNSOURCED": [
+    "JURISDICTION rules are deliberately absent. Whether a police officer may enforce a driver-licence offence turns on the FRSC Establishment Act 2007, which has NOT been retrieved or verified. Do not add a jurisdiction rule until that Act is on disk and the section is read."
+  ],
+  "_ESSENTIAL_NOTE": "agency and allegation are essential: without WHO stopped you and WHAT they say you did, no claim or rule can be stated responsibly. Both are asked before anything is rendered."
+}
