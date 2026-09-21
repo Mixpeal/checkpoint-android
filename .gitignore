@@ -27,4 +27,13 @@ build-assets/
 __pycache__/
 *.pyc
 
+# Submission artifacts. These are uploaded to the form, not carried in the repository.
+# The leading slash keeps this to the root, so the primary law in sources/ stays tracked.
+/checkpoint-deck.pdf
+/SUBMISSION.md
+*.mp4
+*.mov
+*.webm
+*.avi
+
 .DS_Store
