@@ -175,6 +175,25 @@
   ],
   "rules": [
     {
+      "id": "licence_offence_names_the_corps",
+      "when": {
+        "agency": "police",
+        "allegation": "licence"
+      },
+      "severity": "high",
+      "text": {
+        "en": "Police stopped you over a licence. The Act that creates that offence is the FRSC Establishment Act, and the power to demand and retain a driving licence over a traffic offence is given there to a member of the Corps, who must issue a notice of offence sheet. The fine is ten thousand naira on conviction. Neither Act describes a payment collected at the roadside.",
+        "fr": "La police vous a arrêté pour un permis. Le texte qui crée cette infraction est la loi portant création de la FRSC, et le pouvoir d'exiger et de retenir un permis pour une infraction routière y est confié à un membre du Corps, qui doit délivrer un avis d'infraction. L'amende est de dix mille nairas sur condamnation. Aucun des deux textes ne décrit un paiement encaissé au bord de la route.",
+        "pt": "A polícia o parou por causa da carteira. O texto que cria essa infração é a lei que institui a FRSC, e o poder de exigir e reter uma carteira por infração de trânsito é dado ali a um membro do Corpo, que tem que emitir uma notificação de infração. A multa é de dez mil nairas mediante condenação. Nenhum dos dois textos descreve pagamento recolhido na beira da estrada."
+      },
+      "citation": {
+        "instrument": "FRSC (Establishment) Act 2007",
+        "section": "s.23(1)-(2); s.28(1)-(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/Federal-Road-Safety-Commission-Establishment-Act-2007.pdf",
+        "captured": "2026-09-21"
+      }
+    },
+    {
       "id": "cash_leaves_no_record",
       "when": {
         "money": true,
@@ -228,7 +247,7 @@
     }
   ],
   "_UNSOURCED": [
-    "JURISDICTION rules are deliberately absent. Whether a police officer may enforce a driver-licence offence turns on the FRSC Establishment Act 2007, which has NOT been retrieved or verified. Do not add a jurisdiction rule until that Act is on disk and the section is read."
+    "Whether a police officer may enforce a driver-licence offence is now answered from primary text. The FRSC (Establishment) Act 2007 is in sources/, s.23 creates the offence and s.28 gives a member of the Corps the power to demand and retain a licence. Neither Act states that a police officer may not act on one, so the jurisdiction claim is bucketed contested and the settled claim covers the process instead."
   ],
   "_ESSENTIAL_NOTE": "agency and allegation are essential: without WHO stopped you and WHAT they say you did, no claim or rule can be stated responsibly. Both are asked before anything is rendered."
 }

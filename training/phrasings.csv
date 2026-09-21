@@ -476,3 +476,39 @@ licence_original_24h,fr,je n'ai qu'une copie de mon permis sur moi
 licence_original_24h,fr,de combien de temps je dispose pour présenter le permis original
 licence_original_24h,pt,eu só tenho uma cópia da minha carteira comigo
 licence_original_24h,pt,quanto tempo tenho para apresentar a carteira original
+licence_fine_goes_to_a_court,en,should I pay the police for not having a licence
+licence_fine_goes_to_a_court,en,the police want me to pay them for my licence offence
+licence_fine_goes_to_a_court,en,can a police officer collect the licence fine
+licence_fine_goes_to_a_court,en,who do I pay for driving without a licence
+licence_fine_goes_to_a_court,en,they want cash at the roadside for my licence
+licence_fine_goes_to_a_court,en,is paying the officer the right way to settle a licence offence
+licence_fine_goes_to_a_court,fr,dois-je payer la police pour ne pas avoir de permis
+licence_fine_goes_to_a_court,fr,la police veut que je la paie pour mon défaut de permis
+licence_fine_goes_to_a_court,fr,un policier peut-il encaisser l'amende de permis
+licence_fine_goes_to_a_court,fr,à qui dois-je payer pour avoir conduit sans permis
+licence_fine_goes_to_a_court,fr,ils veulent des espèces au bord de la route pour mon permis
+licence_fine_goes_to_a_court,fr,payer l'agent est-il la bonne façon de régler un défaut de permis
+licence_fine_goes_to_a_court,pt,devo pagar a polícia por não ter carteira
+licence_fine_goes_to_a_court,pt,a polícia quer que eu pague a eles pela carteira
+licence_fine_goes_to_a_court,pt,um policial pode receber a multa da carteira
+licence_fine_goes_to_a_court,pt,a quem eu pago por dirigir sem carteira
+licence_fine_goes_to_a_court,pt,querem dinheiro na beira da estrada pela minha carteira
+licence_fine_goes_to_a_court,pt,pagar o agente é a forma certa de resolver a falta de carteira
+licence_is_whose_business,en,is a licence police business or FRSC
+licence_is_whose_business,en,which agency handles driving licence offences
+licence_is_whose_business,en,FRSC says the police should not have taken my money
+licence_is_whose_business,en,whose job is it to check my driver licence
+licence_is_whose_business,en,"police or road safety, who deals with licences"
+licence_is_whose_business,en,the road safety people say the police had no business with my licence
+licence_is_whose_business,fr,le permis relève-t-il de la police ou de la FRSC
+licence_is_whose_business,fr,quelle autorité s'occupe des infractions de permis
+licence_is_whose_business,fr,la FRSC dit que la police n'aurait pas dû prendre mon argent
+licence_is_whose_business,fr,à qui revient le contrôle de mon permis de conduire
+licence_is_whose_business,fr,"police ou sécurité routière, qui gère les permis"
+licence_is_whose_business,fr,la sécurité routière dit que la police n'avait rien à voir avec mon permis
+licence_is_whose_business,pt,a carteira é assunto da polícia ou da FRSC
+licence_is_whose_business,pt,qual órgão cuida das infrações de carteira
+licence_is_whose_business,pt,a FRSC diz que a polícia não devia ter pegado meu dinheiro
+licence_is_whose_business,pt,de quem é a função de conferir minha carteira
+licence_is_whose_business,pt,"polícia ou segurança rodoviária, quem trata das carteiras"
+licence_is_whose_business,pt,a segurança rodoviária diz que a polícia não tinha nada a ver com minha carteira

@@ -125,3 +125,30 @@ These are my reading of the sources, not legal advice. A lawyer should check eve
 
 The last row is your own story and it is not yet sourced. The FRSC Establishment Act 2007 is
 the instrument to pull next.
+
+
+## FRSC (Establishment) Act 2007: retrieved 2026-09-21
+
+`sources/frsc_act_2007.pdf`, 20 pages, from sabilaw.org. Text extracts cleanly, unlike the
+Police Act gazette, so the quote is not OCR.
+
+**s.23(1) to (2)**, quoted in the pack verbatim:
+
+> 23. - (1) A person shall not drive on a highway a motor vehicle of any class or
+> description unless he is the holder of a valid driver's licence. (2) A person who acts in
+> contravention of subsection (1) of this section shall be guilty of an offence and liable
+> on conviction to a fine of ten thousand naira.
+
+This matters twice over. It puts the ten thousand naira figure in a second instrument,
+independent of NRTR 2012 reg. 74(2), and it repeats "liable on conviction".
+
+**s.28(1) to (2)** gives a member of the Corps the power to demand and retain a driving
+licence over a traffic offence, returned once the fine is paid or the driver appears in
+court, with a notice of offence sheet naming the office where it can be reclaimed. The
+extracted text of s.28 contains duplicated words at two line breaks, so it is described in
+the pack rather than quoted.
+
+**What the Act does not say.** It does not state that a police officer may not act on a
+licence offence. The claim that names whose business it is therefore ships as contested.
+The settled claim describes the process both Acts agree on, which is the part that is
+useful at a roadside.

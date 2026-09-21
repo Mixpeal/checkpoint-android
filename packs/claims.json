@@ -117,10 +117,7 @@
         "fr": "Le même critère s'applique : un motif doit être énoncé.",
         "pt": "O mesmo critério se aplica: um motivo tem que ser declarado."
       },
-      "threshold": 0.6,
-      "relevant_when": {
-        "allegation": "search_only"
-      }
+      "threshold": 0.6
     },
     {
       "id": "before_search_disclosure",
@@ -737,6 +734,65 @@
         "pt": "Uma fotocópia, mais 24 horas para apresentar o original."
       },
       "threshold": 0.58,
+      "relevant_when": {
+        "allegation": "licence"
+      }
+    },
+    {
+      "id": "licence_fine_goes_to_a_court",
+      "canonical": {
+        "en": "Should I pay the police for driving without a licence",
+        "fr": "Dois-je payer la police pour avoir conduit sans permis",
+        "pt": "Devo pagar a polícia por dirigir sem carteira"
+      },
+      "bucket": "settled",
+      "answer": {
+        "en": "The offence is created by the FRSC Establishment Act, which sets ten thousand naira and only on conviction. That Act also describes what retaining a licence looks like: a member of the Federal Road Safety Corps may demand and retain it over a traffic offence, and must issue a notice of offence sheet saying which office it can be reclaimed from, with the licence returned once the fine is paid or you appear in court. Money handed over at the roadside is not that process, whoever is holding out their hand.",
+        "fr": "L'infraction est créée par la loi portant création de la FRSC, qui fixe dix mille nairas et seulement sur condamnation. Cette loi décrit aussi ce qu'est la rétention d'un permis : un membre du Corps de sécurité routière peut le retenir pour une infraction au code de la route, et doit délivrer un avis d'infraction indiquant le bureau où le reprendre, le permis étant rendu une fois l'amende payée ou après votre comparution. De l'argent remis au bord de la route n'est pas cette procédure, quelle que soit la main tendue.",
+        "pt": "A infração é criada pela lei que institui a FRSC, que fixa dez mil nairas e apenas mediante condenação. Essa lei também descreve como funciona a retenção de uma carteira: um membro do Corpo de Segurança Rodoviária pode retê-la por infração de trânsito, e tem que emitir uma notificação de infração indicando em que escritório ela pode ser recuperada, sendo devolvida quando a multa for paga ou você comparecer ao tribunal. Dinheiro entregue na beira da estrada não é esse procedimento, seja quem for que estenda a mão."
+      },
+      "quote": "23. – (1) A person shall not drive on a highway a motor vehicle of any class or description unless he is the holder of a valid driver’s licence. (2) A person who acts in contravention of subsection (1) of this section shall be guilty of an offence and liable on conviction to a fine of ten thousand naira.",
+      "citation": {
+        "instrument": "FRSC (Establishment) Act 2007",
+        "section": "s.23(1)-(2); s.28(1)-(2)",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/Federal-Road-Safety-Commission-Establishment-Act-2007.pdf",
+        "captured": "2026-09-21"
+      },
+      "next_step": {
+        "en": "Ask for the notice of offence sheet and the office address. That is the paperwork the Act describes.",
+        "fr": "Demandez l'avis d'infraction et l'adresse du bureau. C'est le document que la loi décrit.",
+        "pt": "Peça a notificação de infração e o endereço do escritório. É o documento que a lei descreve."
+      },
+      "threshold": 0.6,
+      "relevant_when": {
+        "allegation": "licence"
+      }
+    },
+    {
+      "id": "licence_is_whose_business",
+      "canonical": {
+        "en": "Is a driver's licence police business or FRSC business",
+        "fr": "Le permis de conduire relève-t-il de la police ou de la FRSC",
+        "pt": "A carteira de motorista é assunto da polícia ou da FRSC"
+      },
+      "bucket": "contested",
+      "answer": {
+        "en": "You may be told either thing, and people are. Here is what the instruments actually say. Driving without a valid licence is an offence under the FRSC Establishment Act, and that Act gives the power to demand and retain a driving licence to a member of the Corps. The Police Act 2020 sets out police powers separately and creates no licence offence at all. Neither Act states in terms that a police officer may not act on one, so treat anybody who tells you this is obvious with care.",
+        "fr": "On vous dira l'un ou l'autre, et cela arrive. Voici ce que disent les textes. Conduire sans permis valide est une infraction au titre de la loi portant création de la FRSC, et cette loi confie à un membre du Corps le pouvoir d'exiger et de retenir un permis. La loi de 2020 sur la police énonce séparément les pouvoirs policiers et ne crée aucune infraction relative au permis. Aucune des deux ne dit expressément qu'un policier ne peut pas agir, alors méfiez-vous de qui vous présente cela comme évident.",
+        "pt": "Vão lhe dizer uma coisa ou outra, e dizem mesmo. Eis o que os textos realmente dizem. Dirigir sem carteira válida é infração pela lei que institui a FRSC, e essa lei dá a um membro do Corpo o poder de exigir e reter uma carteira. A Lei da Polícia de 2020 trata separadamente dos poderes policiais e não cria nenhuma infração sobre carteira. Nenhuma das duas diz expressamente que um policial não pode agir, então desconfie de quem apresentar isso como óbvio."
+      },
+      "citation": {
+        "instrument": "FRSC (Establishment) Act 2007",
+        "section": "s.23; s.28, read against Police Act 2020",
+        "url": "https://sabilaw.org/wp-content/uploads/2021/12/Federal-Road-Safety-Commission-Establishment-Act-2007.pdf",
+        "captured": "2026-09-21"
+      },
+      "next_step": {
+        "en": "Whoever stopped you, the figure is ₦10,000 and it follows a conviction.",
+        "fr": "Quel que soit celui qui vous a arrêté, le montant est de ₦10 000 et il suit une condamnation.",
+        "pt": "Seja quem for que o parou, o valor é ₦10.000 e vem depois de uma condenação."
+      },
+      "threshold": 0.6,
       "relevant_when": {
         "allegation": "licence"
       }
